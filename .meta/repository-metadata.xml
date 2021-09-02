@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<repository-metadata>
-  <version>1.0.0</version>
-  <url>https://registry.quarkus.io/maven</url>
-  <id>registry.quarkus.io</id>
-  <layout>maven2</layout>
-  <policy>snapshot</policy>
-</repository-metadata>
