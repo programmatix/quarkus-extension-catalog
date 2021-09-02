@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>io.quarkus.registry</groupId>
+  <artifactId>quarkus-platforms</artifactId>
+  <versioning>
+    <snapshot>
+      <timestamp>20210902.131910</timestamp>
+      <buildNumber>1</buildNumber>
+    </snapshot>
+    <lastUpdated>20210902131910</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>1.0-20210902.131910-1</value>
+        <updated>20210902131910</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>json</extension>
+        <value>1.0-20210902.131910-1</value>
+        <updated>20210902131910</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <classifier>2.1.4.Final</classifier>
+        <extension>json</extension>
+        <value>1.0-20210902.131910-1</value>
+        <updated>20210902131910</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <classifier>2.2.1.Final</classifier>
+        <extension>json</extension>
+        <value>1.0-20210902.131910-1</value>
+        <updated>20210902131910</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>
