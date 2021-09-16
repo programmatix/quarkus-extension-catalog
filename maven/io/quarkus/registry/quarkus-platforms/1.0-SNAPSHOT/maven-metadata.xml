@@ -4,32 +4,32 @@
   <artifactId>quarkus-platforms</artifactId>
   <versioning>
     <snapshot>
-      <timestamp>20210913.180531</timestamp>
+      <timestamp>20210916.060507</timestamp>
       <buildNumber>1</buildNumber>
     </snapshot>
-    <lastUpdated>20210913180531</lastUpdated>
+    <lastUpdated>20210916060507</lastUpdated>
     <snapshotVersions>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>1.0-20210913.180531-1</value>
-        <updated>20210913180531</updated>
+        <value>1.0-20210916.060507-1</value>
+        <updated>20210916060507</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>json</extension>
-        <value>1.0-20210913.180531-1</value>
-        <updated>20210913180531</updated>
+        <value>1.0-20210916.060507-1</value>
+        <updated>20210916060507</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>2.2.2.Final</classifier>
         <extension>json</extension>
-        <value>1.0-20210913.180531-1</value>
-        <updated>20210913180531</updated>
+        <value>1.0-20210916.060507-1</value>
+        <updated>20210916060507</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>2.1.4.Final</classifier>
         <extension>json</extension>
-        <value>1.0-20210913.180531-1</value>
-        <updated>20210913180531</updated>
+        <value>1.0-20210916.060507-1</value>
+        <updated>20210916060507</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>

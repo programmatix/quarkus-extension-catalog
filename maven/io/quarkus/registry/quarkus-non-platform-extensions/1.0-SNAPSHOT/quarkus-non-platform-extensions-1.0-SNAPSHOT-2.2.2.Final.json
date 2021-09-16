@@ -367,7 +367,7 @@
       "built-with-quarkus-core" : "2.2.2.Final",
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core" ]
     },
-    "artifact" : "io.quarkiverse.opentracing.datadog:quarkus-datadog-opentracing::jar:1.1.0"
+    "artifact" : "io.quarkiverse.opentracing.datadog:quarkus-datadog-opentracing::jar:1.1.1"
   }, {
     "name" : "Quarkus - Operator SDK",
     "description" : "Quarkus extension for the Java Operator SDK (https://javaoperatorsdk.io)",
