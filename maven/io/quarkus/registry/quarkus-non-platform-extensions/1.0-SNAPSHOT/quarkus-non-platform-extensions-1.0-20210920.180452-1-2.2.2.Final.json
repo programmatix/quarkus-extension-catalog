@@ -1,6 +1,6 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.2.3.Final:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.2.3.Final",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.2.2.Final:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.2.2.Final",
   "extensions" : [ {
     "name" : "Micrometer registry - JMX",
     "description" : "View metrics data using JMX",
@@ -123,7 +123,7 @@
       "built-with-quarkus-core" : "2.2.3.Final",
       "extension-dependencies" : [ "io.quarkus:quarkus-core", "io.quarkus:quarkus-arc", "io.quarkus:quarkus-resteasy", "io.quarkus:quarkus-vertx-http", "io.quarkus:quarkus-vertx-core", "io.quarkus:quarkus-netty", "io.quarkus:quarkus-resteasy-server-common", "io.quarkus:quarkus-resteasy-jsonb", "io.quarkus:quarkus-jsonb", "io.quarkus:quarkus-smallrye-jwt", "io.quarkus:quarkus-vertx-web", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-jackson", "io.quarkus:quarkus-security", "io.quarkus:quarkus-smallrye-jwt-build", "io.quarkus:quarkus-jsonp", "io.quarkus:quarkus-smallrye-health", "io.quarkus:quarkus-smallrye-fault-tolerance", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-smallrye-metrics", "io.quarkus:quarkus-smallrye-openapi", "io.quarkus:quarkus-swagger-ui", "io.quarkus:quarkus-smallrye-opentracing", "io.quarkus:quarkus-jaeger", "io.quarkus:quarkus-rest-client", "io.quarkus:quarkus-resteasy-common", "io.quarkus:quarkus-apache-httpclient" ]
     },
-    "artifact" : "io.quarkiverse.microprofile:quarkus-microprofile::jar:2.2.3.CR1"
+    "artifact" : "io.quarkiverse.microprofile:quarkus-microprofile::jar:2.2.3.Final"
   }, {
     "name" : "Quarkus - Operator SDK",
     "description" : "Quarkus extension for the Java Operator SDK (https://javaoperatorsdk.io)",
