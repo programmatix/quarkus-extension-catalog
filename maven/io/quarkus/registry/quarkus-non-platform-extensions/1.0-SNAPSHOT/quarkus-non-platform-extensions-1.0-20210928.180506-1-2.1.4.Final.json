@@ -181,9 +181,10 @@
     "name" : "Splunk logging extension - Runtime",
     "description" : "Parent POM for Quarkiverse projects that includes the default release and artifact publishing related\n    configuration",
     "metadata" : {
-      "built-with-quarkus-core" : "1.13.2.Final"
+      "built-with-quarkus-core" : "2.2.3.Final",
+      "extension-dependencies" : [ "io.quarkus:quarkus-core", "io.quarkus:quarkus-arc" ]
     },
-    "artifact" : "io.quarkiverse.logging.splunk:quarkus-logging-splunk::jar:2.0.0"
+    "artifact" : "io.quarkiverse.logging.splunk:quarkus-logging-splunk::jar:2.1.0"
   }, {
     "name" : "JBeret - Batch Processing",
     "description" : "Write Batch Applications with JBeret a JSR-352 implementation",
