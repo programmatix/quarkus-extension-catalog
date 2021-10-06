@@ -411,9 +411,9 @@
       "keywords" : [ "rabbitmq-client", "rabbitmq" ],
       "categories" : [ "messaging" ],
       "status" : "experimental",
-      "built-with-quarkus-core" : "2.1.0.Final",
+      "built-with-quarkus-core" : "2.3.0.Final",
       "extension-dependencies" : [ "io.quarkus:quarkus-core", "io.quarkus:quarkus-arc", "io.quarkus:quarkus-smallrye-context-propagation" ]
     },
-    "artifact" : "io.quarkiverse.rabbitmqclient:quarkus-rabbitmq-client::jar:0.4.0.Final"
+    "artifact" : "io.quarkiverse.rabbitmqclient:quarkus-rabbitmq-client::jar:0.4.1.Final"
   } ]
 }
