@@ -287,10 +287,10 @@
       "categories" : [ "kubernetes", "data" ],
       "status" : "experimental",
       "description" : "Integrates MinIO Java SDK for Amazon S3 Compatible Cloud Storage",
-      "built-with-quarkus-core" : "2.0.0.Final",
-      "extension-dependencies" : [ "io.quarkus:quarkus-arc::jar", "io.quarkus:quarkus-core::jar" ]
+      "built-with-quarkus-core" : "2.3.0.Final",
+      "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core" ]
     },
-    "artifact" : "io.quarkiverse.minio:quarkus-minio::jar:2.0.0"
+    "artifact" : "io.quarkiverse.minio:quarkus-minio::jar:2.3.0"
   }, {
     "name" : "Logging Cloudwatch",
     "description" : "Parent POM for Quarkiverse projects that includes the default release and artifact publishing related\n    configuration",
