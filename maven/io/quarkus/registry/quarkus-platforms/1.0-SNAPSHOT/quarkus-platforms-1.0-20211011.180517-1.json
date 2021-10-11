@@ -22,6 +22,13 @@
         "member-boms" : [ "io.quarkus.platform:quarkus-bom-quarkus-platform-descriptor:2.1.4.Final:json:2.1.4.Final", "io.quarkus.platform:quarkus-optaplanner-bom-quarkus-platform-descriptor:2.1.4.Final:json:2.1.4.Final", "io.quarkus.platform:quarkus-kogito-bom-quarkus-platform-descriptor:2.1.4.Final:json:2.1.4.Final", "io.quarkus.platform:quarkus-qpid-jms-bom-quarkus-platform-descriptor:2.1.4.Final:json:2.1.4.Final", "io.quarkus.platform:quarkus-cassandra-bom-quarkus-platform-descriptor:2.1.4.Final:json:2.1.4.Final", "io.quarkus.platform:quarkus-camel-bom-quarkus-platform-descriptor:2.1.4.Final:json:2.1.4.Final", "io.quarkus.platform:quarkus-hazelcast-client-quarkus-platform-descriptor:2.1.4.Final:json:2.1.4.Final", "io.quarkus.platform:quarkus-debezium-bom-quarkus-platform-descriptor:2.1.4.Final:json:2.1.4.Final", "io.quarkus.platform:quarkus-blaze-persistence-bom-quarkus-platform-descriptor:2.1.4.Final:json:2.1.4.Final", "io.quarkus.platform:quarkus-google-cloud-services-bom-quarkus-platform-descriptor:2.1.4.Final:json:2.1.4.Final" ],
         "quarkus-core-version" : "2.1.4.Final"
       } ]
+    }, {
+      "id" : "2.4",
+      "releases" : [ {
+        "version" : "2.4.0.CR1",
+        "member-boms" : [ "io.quarkus.platform:quarkus-bom-quarkus-platform-descriptor:2.4.0.CR1:json:2.4.0.CR1", "io.quarkus.platform:quarkus-optaplanner-bom-quarkus-platform-descriptor:2.4.0.CR1:json:2.4.0.CR1", "io.quarkus.platform:quarkus-kogito-bom-quarkus-platform-descriptor:2.4.0.CR1:json:2.4.0.CR1", "io.quarkus.platform:quarkus-qpid-jms-bom-quarkus-platform-descriptor:2.4.0.CR1:json:2.4.0.CR1", "io.quarkus.platform:quarkus-cassandra-bom-quarkus-platform-descriptor:2.4.0.CR1:json:2.4.0.CR1", "io.quarkus.platform:quarkus-camel-bom-quarkus-platform-descriptor:2.4.0.CR1:json:2.4.0.CR1", "io.quarkus.platform:quarkus-hazelcast-client-quarkus-platform-descriptor:2.4.0.CR1:json:2.4.0.CR1", "io.quarkus.platform:quarkus-debezium-bom-quarkus-platform-descriptor:2.4.0.CR1:json:2.4.0.CR1", "io.quarkus.platform:quarkus-blaze-persistence-bom-quarkus-platform-descriptor:2.4.0.CR1:json:2.4.0.CR1", "io.quarkus.platform:quarkus-google-cloud-services-bom-quarkus-platform-descriptor:2.4.0.CR1:json:2.4.0.CR1" ],
+        "quarkus-core-version" : "2.4.0.CR1"
+      } ]
     } ]
   } ]
 }
