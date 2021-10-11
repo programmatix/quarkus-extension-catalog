@@ -11,7 +11,7 @@
       "built-with-quarkus-core" : "2.1.1.Final",
       "extension-dependencies" : [ "io.quarkus:quarkus-core" ]
     },
-    "artifact" : "io.quarkiverse.logging.logback:quarkus-logging-logback::jar:0.3.0"
+    "artifact" : "io.quarkiverse.logging.logback:quarkus-logging-logback::jar:0.4.0"
   }, {
     "name" : "Micrometer registry - JMX",
     "description" : "View metrics data using JMX",
