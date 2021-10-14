@@ -1,6 +1,6 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.1.4.Final:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.1.4.Final",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.4.0.CR1:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.4.0.CR1",
   "extensions" : [ {
     "name" : "Logging Logback",
     "description" : "logback.xml support for logback appenders",
@@ -179,6 +179,18 @@
     },
     "artifact" : "io.quarkiverse.freemarker:quarkus-freemarker::jar:0.3.0"
   }, {
+    "name" : "An powerful enhanced toolkit of MyBatis for simplify development",
+    "description" : "An powerful enhanced toolkit of MyBatis for simplify development",
+    "metadata" : {
+      "keywords" : [ "mybatis-plus" ],
+      "guide" : "https://quarkus.io/guides/mybatis-plus",
+      "categories" : [ "data" ],
+      "status" : "preview",
+      "built-with-quarkus-core" : "2.3.0.Final",
+      "extension-dependencies" : [ "io.quarkiverse.mybatis:quarkus-mybatis", "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "io.quarkus:quarkus-agroal", "io.quarkus:quarkus-datasource", "io.quarkus:quarkus-narayana-jta", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation" ]
+    },
+    "artifact" : "io.quarkiverse.mybatis:quarkus-mybatis-plus::jar:0.0.10"
+  }, {
     "name" : "Micrometer registry - StatsD",
     "description" : "Send metrics to a StatsD sidecar agent",
     "metadata" : {
@@ -341,10 +353,10 @@
       "guide" : "https://quarkus.io/guides/mybatis",
       "categories" : [ "data" ],
       "status" : "preview",
-      "built-with-quarkus-core" : "2.0.0.Final",
-      "extension-dependencies" : [ "io.quarkus:quarkus-arc::jar", "io.quarkus:quarkus-core::jar", "io.quarkus:quarkus-agroal::jar", "io.quarkus:quarkus-datasource::jar", "io.quarkus:quarkus-narayana-jta::jar", "io.quarkus:quarkus-mutiny::jar", "io.quarkus:quarkus-smallrye-context-propagation::jar" ]
+      "built-with-quarkus-core" : "2.3.0.Final",
+      "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "io.quarkus:quarkus-agroal", "io.quarkus:quarkus-datasource", "io.quarkus:quarkus-narayana-jta", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation" ]
     },
-    "artifact" : "io.quarkiverse.mybatis:quarkus-mybatis::jar:0.0.9"
+    "artifact" : "io.quarkiverse.mybatis:quarkus-mybatis::jar:0.0.10"
   }, {
     "name" : "PrettyTime",
     "description" : "PrettyTime is an OpenSource time formatting library.",
