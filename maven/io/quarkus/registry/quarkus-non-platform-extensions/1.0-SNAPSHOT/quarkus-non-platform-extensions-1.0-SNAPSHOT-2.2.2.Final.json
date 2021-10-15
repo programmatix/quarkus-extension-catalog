@@ -384,10 +384,10 @@
     "name" : "Quarkus CXF",
     "description" : "Enables you to develop web services using Apache CXF",
     "metadata" : {
-      "built-with-quarkus-core" : "2.0.0.Final",
-      "extension-dependencies" : [ "io.quarkus:quarkus-arc::jar", "io.quarkus:quarkus-core::jar", "io.quarkus:quarkus-jaxb::jar", "io.quarkus:quarkus-jaxp::jar", "io.quarkus:quarkus-jackson::jar", "io.quarkus:quarkus-vertx-http::jar", "io.quarkus:quarkus-mutiny::jar", "io.quarkus:quarkus-smallrye-context-propagation::jar", "io.quarkus:quarkus-vertx-core::jar", "io.quarkus:quarkus-netty::jar" ]
+      "built-with-quarkus-core" : "2.3.0.Final",
+      "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "io.quarkus:quarkus-jaxb", "io.quarkus:quarkus-jaxp", "io.quarkus:quarkus-jackson", "io.quarkus:quarkus-vertx-http", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-netty" ]
     },
-    "artifact" : "io.quarkiverse.cxf:quarkus-cxf::jar:0.9"
+    "artifact" : "io.quarkiverse.cxf:quarkus-cxf::jar:0.10.0"
   }, {
     "name" : "Microprofile",
     "description" : "Quarkus MicroProfile 4.1 Compatible Implementation",
