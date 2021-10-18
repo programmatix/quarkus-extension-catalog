@@ -1,6 +1,6 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.4.0.CR1:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.4.0.CR1",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.1.4.Final:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.1.4.Final",
   "extensions" : [ {
     "name" : "Logging Logback",
     "description" : "logback.xml support for logback appenders",
@@ -238,6 +238,16 @@
       "built-with-quarkus-core" : "1.13.0.Final"
     },
     "artifact" : "org.apache.myfaces.core.extensions.quarkus:myfaces-quarkus::jar:2.3-next-M6"
+  }, {
+    "name" : "Camunda Platform Engine",
+    "description" : "Quarkus Extension for the Camunda Platform Engine",
+    "metadata" : {
+      "keywords" : [ "camunda", "camunda-platform", "processes", "decisions", "bpmn", "dmn" ],
+      "guide" : "https://docs.camunda.org/manual/",
+      "categories" : [ "business-automation" ],
+      "status" : "preview"
+    },
+    "artifact" : "org.camunda.bpm.quarkus:camunda-bpm-quarkus-engine::jar:7.16.0"
   }, {
     "name" : "Cucumber",
     "description" : "Cucumber allows you to run tests using Cucumber.",
