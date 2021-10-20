@@ -8,10 +8,10 @@
       "keywords" : [ "logging", "logback" ],
       "categories" : [ "logging" ],
       "status" : "experimental",
-      "built-with-quarkus-core" : "2.1.1.Final",
+      "built-with-quarkus-core" : "2.3.0.Final",
       "extension-dependencies" : [ "io.quarkus:quarkus-core" ]
     },
-    "artifact" : "io.quarkiverse.logging.logback:quarkus-logging-logback::jar:0.4.0"
+    "artifact" : "io.quarkiverse.logging.logback:quarkus-logging-logback::jar:0.5.0"
   }, {
     "name" : "Micrometer registry - JMX",
     "description" : "View metrics data using JMX",
