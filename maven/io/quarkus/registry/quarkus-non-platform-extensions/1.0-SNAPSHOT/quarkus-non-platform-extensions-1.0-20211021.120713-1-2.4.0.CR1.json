@@ -1,6 +1,6 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.2.2.Final:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.2.2.Final",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.4.0.CR1:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.4.0.CR1",
   "extensions" : [ {
     "name" : "Logging Logback",
     "description" : "logback.xml support for logback appenders",
@@ -136,10 +136,10 @@
       "categories" : [ "business-automation" ],
       "status" : "stable",
       "config" : [ "quarkus.github-app." ],
-      "built-with-quarkus-core" : "2.4.0.CR1",
+      "built-with-quarkus-core" : "2.4.0.Final",
       "extension-dependencies" : [ "io.quarkus:quarkus-core", "io.quarkus:quarkus-arc", "io.quarkus:quarkus-reactive-routes", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-netty", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-vertx-http", "io.quarkus:quarkus-jackson", "io.quarkus:quarkus-caffeine", "io.quarkiverse.githubapi:quarkus-github-api", "io.quarkiverse.jjwtjackson:quarkus-jjwt-jackson" ]
     },
-    "artifact" : "io.quarkiverse.githubapp:quarkus-github-app::jar:1.1.5"
+    "artifact" : "io.quarkiverse.githubapp:quarkus-github-app::jar:1.2.1"
   }, {
     "name" : "Quarkiverse - Tekton Client - Runtime",
     "description" : "Parent POM for Quarkiverse projects that includes the default release and artifact publishing related\n    configuration",
