@@ -107,6 +107,20 @@
     },
     "artifact" : "io.quarkiverse.githubapi:quarkus-github-api::jar:1.131.1"
   }, {
+    "name" : "Jackson Jq",
+    "description" : "Provide jq expressions support to Quarkus applications",
+    "metadata" : {
+      "keywords" : [ "jackson-jq", "jackson", "jq" ],
+      "categories" : [ "miscellaneous" ],
+      "status" : "preview",
+      "built-with-quarkus-core" : "2.4.0.Final",
+      "capabilities" : {
+        "provides" : [ "io.quarkiverse.jackson.jq" ]
+      },
+      "extension-dependencies" : [ "io.quarkus:quarkus-jackson", "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core" ]
+    },
+    "artifact" : "io.quarkiverse.jackson-jq:quarkus-jackson-jq::jar:1.0.0"
+  }, {
     "name" : "Quarkus - Maven Resolver - Runtime",
     "description" : "Parent POM for Quarkiverse projects that includes the default release and artifact publishing related\n    configuration",
     "artifact" : "io.quarkiverse.mavenresolver:quarkus-maven-resolver::jar:0.0.2"
