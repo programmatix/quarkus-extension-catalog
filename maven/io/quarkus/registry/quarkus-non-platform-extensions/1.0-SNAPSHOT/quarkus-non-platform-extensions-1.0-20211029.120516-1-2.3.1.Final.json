@@ -1,6 +1,6 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.2.3.Final:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.2.3.Final",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.3.1.Final:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.3.1.Final",
   "extensions" : [ {
     "name" : "Logging Logback",
     "description" : "logback.xml support for logback appenders",
@@ -448,10 +448,10 @@
       "keywords" : [ "logging", "logging manager", "log", "logging levels", "log level", "log file" ],
       "categories" : [ "core" ],
       "status" : "stable",
-      "built-with-quarkus-core" : "2.3.0.Final",
+      "built-with-quarkus-core" : "2.4.0.Final",
       "extension-dependencies" : [ "io.quarkus:quarkus-core", "io.quarkus:quarkus-vertx-http", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-arc", "io.quarkus:quarkus-netty", "io.quarkus:quarkus-jackson" ]
     },
-    "artifact" : "io.quarkiverse.loggingmanager:quarkus-logging-manager::jar:2.1.1"
+    "artifact" : "io.quarkiverse.loggingmanager:quarkus-logging-manager::jar:2.1.2"
   }, {
     "name" : "Micrometer registry - Datadog",
     "description" : "Send metrics to Datadog using the Datadog API",
