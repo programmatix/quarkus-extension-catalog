@@ -61,6 +61,17 @@
     },
     "artifact" : "io.quarkiverse.logging.splunk:quarkus-logging-splunk::jar:2.1.0"
   }, {
+    "name" : "XML Security",
+    "description" : "Provides implementation of the primary security standards for XML",
+    "metadata" : {
+      "keywords" : [ "xmlsec" ],
+      "categories" : [ "miscellaneous" ],
+      "status" : "preview",
+      "built-with-quarkus-core" : "2.4.0.Final",
+      "extension-dependencies" : [ "io.quarkus:quarkus-jaxp", "io.quarkus:quarkus-core" ]
+    },
+    "artifact" : "io.quarkiverse.xmlsec:quarkus-xmlsec::jar:0.0.1"
+  }, {
     "name" : "Datadog Opentracing",
     "description" : "Parent POM for Quarkiverse projects that includes the default release and artifact publishing related\n    configuration",
     "metadata" : {
