@@ -1,6 +1,6 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.4.1.Final:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.4.1.Final",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.1.4.Final:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.1.4.Final",
   "extensions" : [ {
     "name" : "Micrometer registry - SignalFX",
     "description" : "Send metrics to Splunk using SignalFX",
@@ -251,9 +251,10 @@
     "name" : "Quarkus - Unleash - Runtime",
     "description" : "Unleash is a feature toggle system",
     "metadata" : {
-      "built-with-quarkus-core" : "io.quarkus:quarkus-core:1.11.1.Final"
+      "built-with-quarkus-core" : "2.2.3.Final",
+      "extension-dependencies" : [ "io.quarkus:quarkus-core", "io.quarkus:quarkus-arc" ]
     },
-    "artifact" : "io.quarkiverse.unleash:quarkus-unleash::jar:0.1.0"
+    "artifact" : "io.quarkiverse.unleash:quarkus-unleash::jar:0.2.0"
   }, {
     "name" : "RabbitMQ Client",
     "description" : "Parent POM for Quarkiverse projects that includes the default release and artifact publishing related\n    configuration",
