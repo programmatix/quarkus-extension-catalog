@@ -1,6 +1,6 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.4.2.Final:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.4.2.Final",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.1.4.Final:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.1.4.Final",
   "extensions" : [ {
     "name" : "Micrometer registry - SignalFX",
     "description" : "Send metrics to Splunk using SignalFX",
@@ -395,15 +395,15 @@
     },
     "artifact" : "io.quarkiverse.githubapp:quarkus-github-app::jar:1.2.1"
   }, {
-    "name" : "Quarkus - OpenCV",
+    "name" : "OpenCV",
     "description" : "Build computer vision and AI applications with OpenCV",
     "metadata" : {
       "keywords" : [ "opencv", "ai", "computer vision" ],
       "categories" : [ "business-automation" ],
-      "built-with-quarkus-core" : "2.0.0.Final",
-      "extension-dependencies" : [ "io.quarkus:quarkus-arc::jar", "io.quarkus:quarkus-core::jar" ]
+      "built-with-quarkus-core" : "2.4.2.Final",
+      "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core" ]
     },
-    "artifact" : "io.quarkiverse.opencv:quarkus-opencv::jar:1.0.4"
+    "artifact" : "io.quarkiverse.opencv:quarkus-opencv::jar:1.1.0"
   }, {
     "name" : "Apicurio Registry client",
     "description" : "Allow applications to use Apicurio Registry client",
