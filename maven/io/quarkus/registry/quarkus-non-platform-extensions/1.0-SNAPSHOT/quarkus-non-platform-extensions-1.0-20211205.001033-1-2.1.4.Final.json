@@ -1,6 +1,6 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.3.1.Final:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.3.1.Final",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.1.4.Final:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.1.4.Final",
   "extensions" : [ {
     "name" : "Quarkus CXF",
     "description" : "Enables you to develop web services using Apache CXF",
@@ -437,9 +437,10 @@
     "name" : "Quarkus jOOQ - Runtime",
     "description" : "Enables you to develop type safe SQL queries using jOOQ",
     "metadata" : {
-      "built-with-quarkus-core" : "1.13.7.Final"
+      "built-with-quarkus-core" : "2.5.1.Final",
+      "extension-dependencies" : [ "io.quarkus:quarkus-agroal", "io.quarkus:quarkus-core", "io.quarkus:quarkus-datasource", "io.quarkus:quarkus-narayana-jta", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-arc" ]
     },
-    "artifact" : "io.quarkiverse.jooq:quarkus-jooq::jar:0.2.2"
+    "artifact" : "io.quarkiverse.jooq:quarkus-jooq::jar:0.3.0"
   }, {
     "name" : "Reactive HTTP and WebSocket Connector",
     "description" : "Connect to HTTP or Web Socket and expose HTTP or Web Socket endpoints for Reactive Messaging",
