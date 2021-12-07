@@ -1,6 +1,6 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.4.2.Final:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.4.2.Final",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.2.2.Final:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.2.2.Final",
   "extensions" : [ {
     "name" : "Quarkus CXF",
     "description" : "Enables you to develop web services using Apache CXF",
@@ -110,6 +110,21 @@
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core" ]
     },
     "artifact" : "io.quarkiverse.univocityparsers:quarkus-univocity-parsers::jar:0.0.1"
+  }, {
+    "name" : "Apache Tika",
+    "description" : "Extract data from your documents with Apache Tika",
+    "metadata" : {
+      "keywords" : [ "tika", "parser" ],
+      "categories" : [ "miscellaneous" ],
+      "status" : "stable",
+      "config" : [ "quarkus.tika." ],
+      "built-with-quarkus-core" : "2.5.0.Final",
+      "capabilities" : {
+        "provides" : [ "io.quarkus.tika" ]
+      },
+      "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "io.quarkus:quarkus-awt", "io.quarkus:quarkus-apache-httpclient" ]
+    },
+    "artifact" : "io.quarkiverse.tika:quarkus-tika::jar:1.0.0"
   }, {
     "name" : "JBeret - REST",
     "description" : "Manage JBeret Batch Applications with REST",

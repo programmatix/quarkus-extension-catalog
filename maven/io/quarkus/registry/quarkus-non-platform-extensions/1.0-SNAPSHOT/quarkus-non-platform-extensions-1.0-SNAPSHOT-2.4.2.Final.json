@@ -111,6 +111,21 @@
     },
     "artifact" : "io.quarkiverse.univocityparsers:quarkus-univocity-parsers::jar:0.0.1"
   }, {
+    "name" : "Apache Tika",
+    "description" : "Extract data from your documents with Apache Tika",
+    "metadata" : {
+      "keywords" : [ "tika", "parser" ],
+      "categories" : [ "miscellaneous" ],
+      "status" : "stable",
+      "config" : [ "quarkus.tika." ],
+      "built-with-quarkus-core" : "2.5.0.Final",
+      "capabilities" : {
+        "provides" : [ "io.quarkus.tika" ]
+      },
+      "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "io.quarkus:quarkus-awt", "io.quarkus:quarkus-apache-httpclient" ]
+    },
+    "artifact" : "io.quarkiverse.tika:quarkus-tika::jar:1.0.0"
+  }, {
     "name" : "JBeret - REST",
     "description" : "Manage JBeret Batch Applications with REST",
     "metadata" : {
