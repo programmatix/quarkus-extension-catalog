@@ -1,6 +1,6 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.2.3.Final:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.2.3.Final",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.2.2.Final:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.2.2.Final",
   "extensions" : [ {
     "name" : "Quarkus CXF",
     "description" : "Enables you to develop web services using Apache CXF",
@@ -37,6 +37,16 @@
     },
     "artifact" : "io.quarkiverse.rabbitmqclient:quarkus-rabbitmq-client::jar:0.4.2.Final"
   }, {
+    "name" : "JSch",
+    "description" : "Secure your connections with SSH",
+    "metadata" : {
+      "keywords" : [ "jsch" ],
+      "categories" : [ "miscellaneous" ],
+      "built-with-quarkus-core" : "2.5.1.Final",
+      "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core" ]
+    },
+    "artifact" : "io.quarkiverse.jsch:quarkus-jsch::jar:1.0.0"
+  }, {
     "name" : "Micrometer registry - Azure Monitor",
     "description" : "Send data gathered by Micrometer to Azure Monitor",
     "metadata" : {
@@ -70,6 +80,18 @@
       "extension-dependencies" : [ "io.quarkiverse.mybatis:quarkus-mybatis", "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "io.quarkus:quarkus-agroal", "io.quarkus:quarkus-datasource", "io.quarkus:quarkus-narayana-jta", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation" ]
     },
     "artifact" : "io.quarkiverse.mybatis:quarkus-mybatis-plus::jar:0.0.10"
+  }, {
+    "name" : "Neo4j client",
+    "description" : "Connect to Neo4j graph datastore",
+    "metadata" : {
+      "keywords" : [ "neo4j", "graph", "nosql", "datastore" ],
+      "categories" : [ "data" ],
+      "status" : "preview",
+      "config" : [ "quarkus.neo4j." ],
+      "built-with-quarkus-core" : "2.5.1.Final",
+      "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core" ]
+    },
+    "artifact" : "io.quarkiverse.neo4j:quarkus-neo4j::jar:1.0.0"
   }, {
     "name" : "MyBatis SQL Mapper",
     "description" : "MyBatis SQL mapper framework for Java",
@@ -126,6 +148,18 @@
     },
     "artifact" : "io.quarkiverse.tika:quarkus-tika::jar:1.0.1"
   }, {
+    "name" : "Amazon Alexa",
+    "description" : "Write Amazon Alexa Skills with AWS Lambda or HTTPS endpoints",
+    "metadata" : {
+      "keywords" : [ "lambda", "alexa" ],
+      "categories" : [ "cloud" ],
+      "guide" : "https://quarkus.io/guides/amazon-lambda",
+      "status" : "stable",
+      "built-with-quarkus-core" : "2.5.1.Final",
+      "extension-dependencies" : [ "io.quarkus:quarkus-apache-httpclient", "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "io.quarkus:quarkus-jackson" ]
+    },
+    "artifact" : "io.quarkiverse.amazonalexa:quarkus-amazon-alexa::jar:1.0.0"
+  }, {
     "name" : "JBeret - REST",
     "description" : "Manage JBeret Batch Applications with REST",
     "metadata" : {
@@ -180,6 +214,19 @@
       "extension-dependencies" : [ "io.quarkus:quarkus-core", "io.quarkus:quarkus-arc", "io.quarkus:quarkus-narayana-jta", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-agroal", "io.quarkus:quarkus-datasource" ]
     },
     "artifact" : "io.quarkiverse.jberet:quarkus-jberet::jar:1.0.0"
+  }, {
+    "name" : "Artemis JMS",
+    "description" : "Use JMS APIs to connect to ActiveMQ Artemis via its native protocol",
+    "metadata" : {
+      "keywords" : [ "artemis-jms", "artemis" ],
+      "categories" : [ "messaging" ],
+      "guide" : "https://quarkus.io/guides/jms",
+      "status" : "preview",
+      "config" : [ "quarkus.artemis." ],
+      "built-with-quarkus-core" : "2.5.1.Final",
+      "extension-dependencies" : [ "io.quarkiverse.artemis:quarkus-artemis-core", "io.quarkus:quarkus-core", "io.quarkus:quarkus-arc", "io.quarkus:quarkus-jsonp", "io.quarkus:quarkus-netty" ]
+    },
+    "artifact" : "io.quarkiverse.artemis:quarkus-artemis-jms::jar:1.0.1"
   }, {
     "name" : "Lucene",
     "description" : "Add full-text search capabilities to your application with Apache Lucene.",
@@ -322,6 +369,17 @@
     },
     "artifact" : "io.quarkiverse.opencv:quarkus-opencv::jar:1.1.0"
   }, {
+    "name" : "JGit",
+    "description" : "Access your Git repositories",
+    "metadata" : {
+      "keywords" : [ "git" ],
+      "categories" : [ "miscellaneous" ],
+      "status" : "stable",
+      "built-with-quarkus-core" : "2.5.1.Final",
+      "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "io.quarkiverse.jsch:quarkus-jsch" ]
+    },
+    "artifact" : "io.quarkiverse.jgit:quarkus-jgit::jar:1.1.0"
+  }, {
     "name" : "Jackson Jq",
     "description" : "Provide jq expressions support to Quarkus applications",
     "metadata" : {
@@ -411,6 +469,31 @@
       "status" : "preview"
     },
     "artifact" : "io.quarkiverse.loggingjson:quarkiverse-logging-json::jar:0.2.3"
+  }, {
+    "name" : "Artemis Core",
+    "description" : "Use ActiveMQ Artemis as message broker",
+    "metadata" : {
+      "keywords" : [ "artemis-core", "artemis" ],
+      "categories" : [ "messaging" ],
+      "status" : "preview",
+      "unlisted" : true,
+      "config" : [ "quarkus.artemis." ],
+      "built-with-quarkus-core" : "2.5.1.Final",
+      "extension-dependencies" : [ "io.quarkus:quarkus-core", "io.quarkus:quarkus-arc", "io.quarkus:quarkus-jsonp", "io.quarkus:quarkus-netty" ]
+    },
+    "artifact" : "io.quarkiverse.artemis:quarkus-artemis-core::jar:1.0.1"
+  }, {
+    "name" : "Logging Sentry",
+    "description" : "Use Sentry, a self-hosted or cloud-based error monitoring solution",
+    "metadata" : {
+      "keywords" : [ "logging", "sentry", "cloud" ],
+      "categories" : [ "core" ],
+      "status" : "preview",
+      "config" : [ "quarkus.log.sentry." ],
+      "built-with-quarkus-core" : "2.5.1.Final",
+      "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core" ]
+    },
+    "artifact" : "io.quarkiverse.loggingsentry:quarkus-logging-sentry::jar:1.0.0"
   }, {
     "name" : "Minio Client extension",
     "description" : "Integrates MinIO Java SDK for Amazon S3 Compatible Cloud Storage",
