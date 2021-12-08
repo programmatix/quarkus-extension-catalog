@@ -1,6 +1,6 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.4.2.Final:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.4.2.Final",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.1.4.Final:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.1.4.Final",
   "extensions" : [ {
     "name" : "Quarkus CXF",
     "description" : "Enables you to develop web services using Apache CXF",
@@ -249,14 +249,6 @@
       "built-with-quarkus-core" : "1.13.4.Final"
     },
     "artifact" : "io.quarkiverse.jgrapht:quarkus-jgrapht::jar:1.2.1"
-  }, {
-    "name" : "Vaadin Quarkus",
-    "description" : "A parent POM for all artifacts by Vaadin Ltd.",
-    "metadata" : {
-      "built-with-quarkus-core" : "2.3.0.Final",
-      "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "io.quarkus:quarkus-undertow", "io.quarkus:quarkus-vertx-http", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-netty", "io.quarkus:quarkus-jackson" ]
-    },
-    "artifact" : "com.vaadin:vaadin-quarkus::jar:1.0.0"
   }, {
     "name" : "MyFaces",
     "description" : "Apache MyFaces Core runtime extension for Quarkus.",
