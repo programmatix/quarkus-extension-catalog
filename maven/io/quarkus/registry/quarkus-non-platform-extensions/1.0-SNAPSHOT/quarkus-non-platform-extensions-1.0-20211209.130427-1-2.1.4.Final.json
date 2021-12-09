@@ -1,6 +1,6 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.3.1.Final:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.3.1.Final",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.1.4.Final:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.1.4.Final",
   "extensions" : [ {
     "name" : "Quarkus CXF",
     "description" : "Enables you to develop web services using Apache CXF",
@@ -21,10 +21,10 @@
     "name" : "Logging Cloudwatch",
     "description" : "Parent POM for Quarkiverse projects that includes the default release and artifact publishing related\n    configuration",
     "metadata" : {
-      "built-with-quarkus-core" : "2.4.0.Final",
+      "built-with-quarkus-core" : "2.5.1.Final",
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "io.quarkus:quarkus-apache-httpclient" ]
     },
-    "artifact" : "io.quarkiverse.logging.cloudwatch:quarkus-logging-cloudwatch::jar:4.0.0"
+    "artifact" : "io.quarkiverse.logging.cloudwatch:quarkus-logging-cloudwatch::jar:4.0.1"
   }, {
     "name" : "RabbitMQ Client",
     "description" : "Parent POM for Quarkiverse projects that includes the default release and artifact publishing related\n    configuration",
@@ -417,6 +417,18 @@
       "extension-dependencies" : [ "io.quarkus:quarkus-core::jar" ]
     },
     "artifact" : "io.quarkiverse.jjwtjackson:quarkus-jjwt-jackson::jar:1.0.0"
+  }, {
+    "name" : "Hibernate Search + Elasticsearch - AWS authentication and request signing",
+    "description" : "AWS request signing for Hibernate Search ORM + Elasticsearch",
+    "metadata" : {
+      "keywords" : [ "hibernate-search-orm-elasticsearch-aws", "hibernate-search-elasticsearch-aws", "search", "full-text", "hibernate", "orm", "hibernate-orm", "hibernate-search-orm", "elasticsearch", "amazon", "aws", "apigateway", "iam" ],
+      "categories" : [ "data", "cloud" ],
+      "status" : "stable",
+      "config" : [ "quarkus.hibernate-search-orm." ],
+      "built-with-quarkus-core" : "2.5.1.Final",
+      "extension-dependencies" : [ "io.quarkus:quarkus-core", "io.quarkus:quarkus-hibernate-orm", "io.quarkus:quarkus-agroal", "io.quarkus:quarkus-datasource", "io.quarkus:quarkus-narayana-jta", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-caffeine", "io.quarkus:quarkus-hibernate-search-orm-elasticsearch", "io.quarkus:quarkus-elasticsearch-rest-client-common", "io.quarkus:quarkus-apache-httpclient", "io.quarkiverse.amazonservices:quarkus-amazon-common", "io.quarkus:quarkus-arc", "io.quarkus:quarkus-netty" ]
+    },
+    "artifact" : "io.quarkiverse.hibernatesearchextras:quarkus-hibernate-search-orm-elasticsearch-aws::jar:1.0.0"
   }, {
     "name" : "GitHub App",
     "description" : "Automate GitHub tasks with a GitHub App",
