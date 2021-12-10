@@ -1,6 +1,6 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.5.1.Final:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.5.1.Final",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.3.1.Final:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.3.1.Final",
   "extensions" : [ {
     "name" : "Quarkus CXF",
     "description" : "Enables you to develop web services using Apache CXF",
@@ -558,10 +558,10 @@
       "keywords" : [ "http-connector", "http", "websockets" ],
       "categories" : [ "web", "reactive", "messaging" ],
       "status" : "experimental",
-      "built-with-quarkus-core" : "2.4.0.Final",
+      "built-with-quarkus-core" : "2.5.1.Final",
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "io.quarkus:quarkus-jackson", "io.quarkus:quarkus-smallrye-reactive-messaging", "io.quarkus:quarkus-mutiny-reactive-streams-operators", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-netty", "io.quarkus:quarkus-reactive-routes", "io.quarkus:quarkus-vertx-http" ]
     },
-    "artifact" : "io.quarkiverse.reactivemessaging.http:quarkus-reactive-messaging-http::jar:1.0.0.CR1"
+    "artifact" : "io.quarkiverse.reactivemessaging.http:quarkus-reactive-messaging-http::jar:1.0.0"
   }, {
     "name" : "Quarkus - Unleash - Runtime",
     "description" : "Unleash is a feature toggle system",
