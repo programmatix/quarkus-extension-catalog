@@ -180,10 +180,10 @@
       "keywords" : [ "logging", "logback" ],
       "categories" : [ "logging" ],
       "status" : "experimental",
-      "built-with-quarkus-core" : "2.5.1.Final",
+      "built-with-quarkus-core" : "2.5.2.Final",
       "extension-dependencies" : [ "io.quarkus:quarkus-core" ]
     },
-    "artifact" : "io.quarkiverse.logging.logback:quarkus-logging-logback::jar:0.7.0"
+    "artifact" : "io.quarkiverse.logging.logback:quarkus-logging-logback::jar:0.8.0"
   }, {
     "name" : "Logging Sentry",
     "description" : "Use Sentry, a self-hosted or cloud-based error monitoring solution",
@@ -590,10 +590,10 @@
       "categories" : [ "data" ],
       "status" : "preview",
       "config" : [ "quarkus.neo4j." ],
-      "built-with-quarkus-core" : "2.5.1.Final",
+      "built-with-quarkus-core" : "2.5.2.Final",
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core" ]
     },
-    "artifact" : "io.quarkiverse.neo4j:quarkus-neo4j::jar:1.0.0"
+    "artifact" : "io.quarkiverse.neo4j:quarkus-neo4j::jar:1.0.1"
   }, {
     "name" : "Quarkus - Zeebe - Runtime",
     "description" : "Zeebe Camunda cloud BPMN workflow engine",
