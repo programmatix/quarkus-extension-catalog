@@ -1,6 +1,6 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.3.1.Final:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.3.1.Final",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.2.2.Final:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.2.2.Final",
   "extensions" : [ {
     "name" : "RabbitMQ Client",
     "description" : "Parent POM for Quarkiverse projects that includes the default release and artifact publishing related\n    configuration",
@@ -60,7 +60,7 @@
       "categories" : [ "business-automation" ],
       "status" : "preview"
     },
-    "artifact" : "org.camunda.bpm.quarkus:camunda-bpm-quarkus-engine::jar:7.17.0-alpha1"
+    "artifact" : "org.camunda.bpm.quarkus:camunda-bpm-quarkus-engine::jar:7.17.0-alpha2"
   }, {
     "name" : "An powerful enhanced toolkit of MyBatis for simplify development",
     "description" : "An powerful enhanced toolkit of MyBatis for simplify development",
@@ -250,10 +250,10 @@
       "guide" : "https://github-api.kohsuke.org/",
       "categories" : [ "business-automation" ],
       "status" : "stable",
-      "built-with-quarkus-core" : "2.5.0.Final",
+      "built-with-quarkus-core" : "2.5.2.Final",
       "extension-dependencies" : [ "io.quarkus:quarkus-core" ]
     },
-    "artifact" : "io.quarkiverse.githubapi:quarkus-github-api::jar:1.301.1"
+    "artifact" : "io.quarkiverse.githubapi:quarkus-github-api::jar:1.301.2"
   }, {
     "name" : "Quarkus JJWT Jackson",
     "description" : "Create JWT tokens",
@@ -486,7 +486,7 @@
       "built-with-quarkus-core" : "2.5.2.Final",
       "extension-dependencies" : [ "io.quarkus:quarkus-core", "io.quarkus:quarkus-arc", "io.quarkus:quarkus-reactive-routes", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-netty", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-vertx-http", "io.quarkus:quarkus-jackson", "io.quarkus:quarkus-caffeine", "io.quarkus:quarkus-smallrye-graphql-client", "io.quarkus:quarkus-jsonb", "io.quarkiverse.githubapi:quarkus-github-api", "io.quarkus:quarkus-smallrye-jwt-build", "io.quarkus:quarkus-jsonp" ]
     },
-    "artifact" : "io.quarkiverse.githubapp:quarkus-github-app::jar:1.5.0"
+    "artifact" : "io.quarkiverse.githubapp:quarkus-github-app::jar:1.6.0"
   }, {
     "name" : "JBeret - Batch Processing",
     "description" : "Write Batch Applications with JBeret a JSR-352 implementation",
