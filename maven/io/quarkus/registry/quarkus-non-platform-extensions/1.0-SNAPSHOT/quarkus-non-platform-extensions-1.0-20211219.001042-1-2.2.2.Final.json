@@ -1,6 +1,6 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.2.4.Final:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.2.4.Final",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.2.2.Final:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.2.2.Final",
   "extensions" : [ {
     "name" : "RabbitMQ Client",
     "description" : "Parent POM for Quarkiverse projects that includes the default release and artifact publishing related\n    configuration",
@@ -190,12 +190,12 @@
     "metadata" : {
       "keywords" : [ "logging", "sentry", "cloud" ],
       "categories" : [ "core" ],
-      "status" : "preview",
+      "guide" : "https://quarkiverse.github.io/quarkiverse-docs/quarkus-logging-sentry/dev/index.html",
       "config" : [ "quarkus.log.sentry." ],
-      "built-with-quarkus-core" : "2.5.1.Final",
+      "built-with-quarkus-core" : "2.6.0.Final",
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core" ]
     },
-    "artifact" : "io.quarkiverse.loggingsentry:quarkus-logging-sentry::jar:1.0.0"
+    "artifact" : "io.quarkiverse.loggingsentry:quarkus-logging-sentry::jar:1.0.1"
   }, {
     "name" : "Apicurio Registry client",
     "description" : "Allow applications to use Apicurio Registry client",
@@ -272,13 +272,12 @@
     "metadata" : {
       "keywords" : [ "artemis-jms", "artemis" ],
       "categories" : [ "messaging" ],
-      "guide" : "https://quarkus.io/guides/jms",
-      "status" : "preview",
+      "guide" : "https://quarkiverse.github.io/quarkiverse-docs/quarkus-artemis/dev/index.html",
       "config" : [ "quarkus.artemis." ],
-      "built-with-quarkus-core" : "2.6.0.CR1",
+      "built-with-quarkus-core" : "2.6.0.Final",
       "extension-dependencies" : [ "io.quarkiverse.artemis:quarkus-artemis-core", "io.quarkus:quarkus-core", "io.quarkus:quarkus-arc", "io.quarkus:quarkus-jsonp", "io.quarkus:quarkus-netty" ]
     },
-    "artifact" : "io.quarkiverse.artemis:quarkus-artemis-jms::jar:1.0.2"
+    "artifact" : "io.quarkiverse.artemis:quarkus-artemis-jms::jar:1.0.3"
   }, {
     "name" : "Microprofile",
     "description" : "Quarkus MicroProfile 4.1 Compatible Implementation",
@@ -552,13 +551,12 @@
     "metadata" : {
       "keywords" : [ "artemis-core", "artemis" ],
       "categories" : [ "messaging" ],
-      "status" : "preview",
       "unlisted" : true,
       "config" : [ "quarkus.artemis." ],
-      "built-with-quarkus-core" : "2.6.0.CR1",
+      "built-with-quarkus-core" : "2.6.0.Final",
       "extension-dependencies" : [ "io.quarkus:quarkus-core", "io.quarkus:quarkus-arc", "io.quarkus:quarkus-jsonp", "io.quarkus:quarkus-netty" ]
     },
-    "artifact" : "io.quarkiverse.artemis:quarkus-artemis-core::jar:1.0.2"
+    "artifact" : "io.quarkiverse.artemis:quarkus-artemis-core::jar:1.0.3"
   }, {
     "name" : "Jackson Jq",
     "description" : "Provide jq expressions support to Quarkus applications",
@@ -591,12 +589,12 @@
     "metadata" : {
       "keywords" : [ "neo4j", "graph", "nosql", "datastore" ],
       "categories" : [ "data" ],
-      "status" : "preview",
+      "guide" : "https://quarkiverse.github.io/quarkiverse-docs/quarkus-neo4j/dev/index.html",
       "config" : [ "quarkus.neo4j." ],
-      "built-with-quarkus-core" : "2.5.2.Final",
+      "built-with-quarkus-core" : "2.6.0.Final",
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core" ]
     },
-    "artifact" : "io.quarkiverse.neo4j:quarkus-neo4j::jar:1.0.1"
+    "artifact" : "io.quarkiverse.neo4j:quarkus-neo4j::jar:1.0.2"
   }, {
     "name" : "Quarkus - Zeebe - Runtime",
     "description" : "Zeebe Camunda cloud BPMN workflow engine",
