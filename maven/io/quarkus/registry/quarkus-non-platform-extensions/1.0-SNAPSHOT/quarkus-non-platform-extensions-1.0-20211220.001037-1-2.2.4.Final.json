@@ -1,6 +1,6 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.1.4.Final:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.1.4.Final",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.2.4.Final:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.2.4.Final",
   "extensions" : [ {
     "name" : "RabbitMQ Client",
     "description" : "Parent POM for Quarkiverse projects that includes the default release and artifact publishing related\n    configuration",
@@ -238,10 +238,10 @@
       "keywords" : [ "xmlsec" ],
       "categories" : [ "miscellaneous" ],
       "status" : "preview",
-      "built-with-quarkus-core" : "2.4.0.Final",
+      "built-with-quarkus-core" : "2.5.3.Final",
       "extension-dependencies" : [ "io.quarkus:quarkus-jaxp", "io.quarkus:quarkus-core" ]
     },
-    "artifact" : "io.quarkiverse.xmlsec:quarkus-xmlsec::jar:0.0.1"
+    "artifact" : "io.quarkiverse.xmlsec:quarkus-xmlsec::jar:1.0.0"
   }, {
     "name" : "GitHub API",
     "description" : "Connect to the GitHub API",
