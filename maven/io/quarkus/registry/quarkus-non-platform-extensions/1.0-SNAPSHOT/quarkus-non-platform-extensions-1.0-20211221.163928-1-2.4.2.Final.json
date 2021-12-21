@@ -1,6 +1,6 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.3.1.Final:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.3.1.Final",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.4.2.Final:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.4.2.Final",
   "extensions" : [ {
     "name" : "RabbitMQ Client",
     "description" : "Parent POM for Quarkiverse projects that includes the default release and artifact publishing related\n    configuration",
@@ -215,10 +215,10 @@
       "keywords" : [ "prettytime" ],
       "categories" : [ "miscellaneous" ],
       "status" : "stable",
-      "built-with-quarkus-core" : "2.2.2.Final",
+      "built-with-quarkus-core" : "2.6.0.Final",
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core" ]
     },
-    "artifact" : "io.quarkiverse.prettytime:quarkus-prettytime::jar:0.1.2"
+    "artifact" : "io.quarkiverse.prettytime:quarkus-prettytime::jar:0.2.0"
   }, {
     "name" : "Micrometer registry - StatsD",
     "description" : "Send metrics to a StatsD sidecar agent",
