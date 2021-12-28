@@ -1,6 +1,6 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.5.4.Final:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.5.4.Final",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.6.1.Final:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.6.1.Final",
   "extensions" : [ {
     "name" : "RabbitMQ Client",
     "description" : "Parent POM for Quarkiverse projects that includes the default release and artifact publishing related\n    configuration",
@@ -431,13 +431,13 @@
       "keywords" : [ "datadog-opentracing", "monitoring", "distributed-tracing" ],
       "categories" : [ "observability" ],
       "status" : "experimental",
-      "built-with-quarkus-core" : "2.5.0.Final",
+      "built-with-quarkus-core" : "2.6.1.Final",
       "capabilities" : {
         "provides" : [ "io.quarkus.opentracing" ]
       },
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core" ]
     },
-    "artifact" : "io.quarkiverse.opentracing.datadog:quarkus-datadog-opentracing::jar:1.1.2"
+    "artifact" : "io.quarkiverse.opentracing.datadog:quarkus-datadog-opentracing::jar:1.1.3"
   }, {
     "name" : "Quarkiverse - Tekton Client - Runtime",
     "description" : "Parent POM for Quarkiverse projects that includes the default release and artifact publishing related\n    configuration",
