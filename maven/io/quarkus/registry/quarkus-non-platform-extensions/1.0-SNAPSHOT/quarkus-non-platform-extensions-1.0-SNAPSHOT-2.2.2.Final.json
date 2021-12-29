@@ -180,10 +180,10 @@
       "keywords" : [ "logging", "logback" ],
       "categories" : [ "logging" ],
       "status" : "experimental",
-      "built-with-quarkus-core" : "2.6.0.Final",
+      "built-with-quarkus-core" : "2.6.1.Final",
       "extension-dependencies" : [ "io.quarkus:quarkus-core" ]
     },
-    "artifact" : "io.quarkiverse.logging.logback:quarkus-logging-logback::jar:0.9.0"
+    "artifact" : "io.quarkiverse.logging.logback:quarkus-logging-logback::jar:0.10.0"
   }, {
     "name" : "Logging Sentry",
     "description" : "Use Sentry, a self-hosted or cloud-based error monitoring solution",
