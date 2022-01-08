@@ -579,10 +579,10 @@
       "categories" : [ "security" ],
       "status" : "experimental",
       "config" : [ "quarkus.kerberos." ],
-      "built-with-quarkus-core" : "2.2.3.Final",
-      "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "io.quarkus:quarkus-vertx-http", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-vertx-core", "io.quarkus:quarkus-netty", "io.quarkus:quarkus-security" ]
+      "built-with-quarkus-core" : "2.6.1.Final",
+      "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "io.quarkus:quarkus-vertx-http", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-netty", "io.quarkus:quarkus-security" ]
     },
-    "artifact" : "io.quarkiverse.kerberos:quarkus-kerberos::jar:0.5.0"
+    "artifact" : "io.quarkiverse.kerberos:quarkus-kerberos::jar:0.6.0"
   }, {
     "name" : "Neo4j client",
     "description" : "Connect to Neo4j graph datastore",
