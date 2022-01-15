@@ -1,6 +1,6 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.3.1.Final:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.3.1.Final",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.4.2.Final:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.4.2.Final",
   "extensions" : [ {
     "name" : "Micrometer registry - Stackdriver",
     "description" : "Send metrics to Google Cloud Operations using Stackdriver",
@@ -97,10 +97,10 @@
       "guide" : "https://github.com/quarkiverse/quarkus-doma",
       "categories" : [ "data" ],
       "status" : "preview",
-      "built-with-quarkus-core" : "2.0.0.Final",
-      "extension-dependencies" : [ "io.quarkus:quarkus-core::jar", "io.quarkus:quarkus-arc::jar", "io.quarkus:quarkus-agroal::jar", "io.quarkus:quarkus-datasource::jar", "io.quarkus:quarkus-narayana-jta::jar", "io.quarkus:quarkus-mutiny::jar", "io.quarkus:quarkus-smallrye-context-propagation::jar" ]
+      "built-with-quarkus-core" : "2.6.2.Final",
+      "extension-dependencies" : [ "io.quarkus:quarkus-core", "io.quarkus:quarkus-arc", "io.quarkus:quarkus-agroal", "io.quarkus:quarkus-datasource", "io.quarkus:quarkus-narayana-jta", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation" ]
     },
-    "artifact" : "io.quarkiverse.doma:quarkus-doma::jar:0.0.5"
+    "artifact" : "io.quarkiverse.doma:quarkus-doma::jar:0.0.7"
   }, {
     "name" : "Micrometer registry - StatsD",
     "description" : "Send metrics to a StatsD sidecar agent",
