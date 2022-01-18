@@ -1,6 +1,6 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.5.4.Final:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.5.4.Final",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.6.2.Final:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.6.2.Final",
   "extensions" : [ {
     "name" : "Micrometer registry - Stackdriver",
     "description" : "Send metrics to Google Cloud Operations using Stackdriver",
@@ -306,10 +306,10 @@
       "keywords" : [ "jberet-rest" ],
       "categories" : [ "rest" ],
       "status" : "experimental",
-      "built-with-quarkus-core" : "2.1.0.Final",
-      "extension-dependencies" : [ "io.quarkiverse.jberet:quarkus-jberet", "io.quarkus:quarkus-core", "io.quarkus:quarkus-arc", "io.quarkus:quarkus-narayana-jta", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-agroal", "io.quarkus:quarkus-datasource", "io.quarkus:quarkus-resteasy", "io.quarkus:quarkus-vertx-http", "io.quarkus:quarkus-vertx-core", "io.quarkus:quarkus-netty", "io.quarkus:quarkus-resteasy-server-common", "io.quarkus:quarkus-resteasy-jsonb", "io.quarkus:quarkus-jsonb", "io.quarkus:quarkus-jsonp", "io.quarkus:quarkus-rest-client", "io.quarkus:quarkus-resteasy-common", "io.quarkus:quarkus-apache-httpclient", "io.quarkus:quarkus-rest-client-jsonb", "io.quarkus:quarkus-jackson" ]
+      "built-with-quarkus-core" : "2.6.2.Final",
+      "extension-dependencies" : [ "io.quarkiverse.jberet:quarkus-jberet", "io.quarkus:quarkus-core", "io.quarkus:quarkus-arc", "io.quarkus:quarkus-narayana-jta", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-agroal", "io.quarkus:quarkus-datasource", "io.quarkus:quarkus-resteasy", "io.quarkus:quarkus-vertx-http", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-netty", "io.quarkus:quarkus-resteasy-server-common", "io.quarkus:quarkus-resteasy-jsonb", "io.quarkus:quarkus-jsonb", "io.quarkus:quarkus-jsonp", "io.quarkus:quarkus-rest-client", "io.quarkus:quarkus-resteasy-common", "io.quarkus:quarkus-apache-httpclient", "io.quarkus:quarkus-rest-client-config", "io.quarkus:quarkus-rest-client-jsonb", "io.quarkus:quarkus-jackson" ]
     },
-    "artifact" : "io.quarkiverse.jberet:quarkus-jberet-rest::jar:1.0.0"
+    "artifact" : "io.quarkiverse.jberet:quarkus-jberet-rest::jar:1.1.0"
   }, {
     "name" : "Micrometer registry - SignalFX",
     "description" : "Send metrics to Splunk using SignalFX",
@@ -610,9 +610,9 @@
       "guide" : "https://quarkus.io/guides/jberet",
       "categories" : [ "data" ],
       "status" : "experimental",
-      "built-with-quarkus-core" : "2.1.0.Final",
+      "built-with-quarkus-core" : "2.6.2.Final",
       "extension-dependencies" : [ "io.quarkus:quarkus-core", "io.quarkus:quarkus-arc", "io.quarkus:quarkus-narayana-jta", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-agroal", "io.quarkus:quarkus-datasource" ]
     },
-    "artifact" : "io.quarkiverse.jberet:quarkus-jberet::jar:1.0.0"
+    "artifact" : "io.quarkiverse.jberet:quarkus-jberet::jar:1.1.0"
   } ]
 }
