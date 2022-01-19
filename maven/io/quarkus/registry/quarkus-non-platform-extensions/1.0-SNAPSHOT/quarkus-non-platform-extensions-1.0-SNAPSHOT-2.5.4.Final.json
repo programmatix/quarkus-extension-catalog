@@ -541,13 +541,13 @@
       "keywords" : [ "datadog-opentracing", "monitoring", "distributed-tracing" ],
       "categories" : [ "observability" ],
       "status" : "experimental",
-      "built-with-quarkus-core" : "2.6.1.Final",
+      "built-with-quarkus-core" : "2.6.2.Final",
       "capabilities" : {
         "provides" : [ "io.quarkus.opentracing" ]
       },
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core" ]
     },
-    "artifact" : "io.quarkiverse.opentracing.datadog:quarkus-datadog-opentracing::jar:1.1.3"
+    "artifact" : "io.quarkiverse.opentracing.datadog:quarkus-datadog-opentracing::jar:1.1.4"
   }, {
     "name" : "Quarkus CXF",
     "description" : "Enables you to develop web services using Apache CXF",
