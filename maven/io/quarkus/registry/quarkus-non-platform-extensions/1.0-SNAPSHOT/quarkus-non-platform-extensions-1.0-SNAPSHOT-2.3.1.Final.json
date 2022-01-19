@@ -114,6 +114,18 @@
     },
     "artifact" : "io.quarkiverse.micrometer.registry:quarkus-micrometer-registry-statsd::jar:2.3.0"
   }, {
+    "name" : "Morphia",
+    "description" : "Advanced MongoDB support via Morphia",
+    "metadata" : {
+      "keywords" : [ "mongodb", "morphia" ],
+      "categories" : [ "data" ],
+      "status" : "preview",
+      "config" : [ "quarkus.morphia." ],
+      "built-with-quarkus-core" : "2.6.1.Final",
+      "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "io.quarkus:quarkus-mongodb-client", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-netty", "io.quarkus:quarkus-mutiny-reactive-streams-operators" ]
+    },
+    "artifact" : "io.quarkiverse.morphia:quarkus-morphia::jar:0.1.0"
+  }, {
     "name" : "Logging JSON Jackson",
     "description" : "Logging in json with support for custom fields",
     "metadata" : {
