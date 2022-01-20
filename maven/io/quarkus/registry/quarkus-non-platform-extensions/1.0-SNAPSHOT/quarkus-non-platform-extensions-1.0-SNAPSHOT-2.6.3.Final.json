@@ -1,6 +1,6 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.6.2.Final:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.6.2.Final",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.6.3.Final:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.6.3.Final",
   "extensions" : [ {
     "name" : "Micrometer registry - Stackdriver",
     "description" : "Send metrics to Google Cloud Operations using Stackdriver",

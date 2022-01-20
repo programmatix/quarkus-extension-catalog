@@ -4,56 +4,56 @@
   <artifactId>quarkus-platforms</artifactId>
   <versioning>
     <snapshot>
-      <timestamp>20220119.155322</timestamp>
+      <timestamp>20220120.145735</timestamp>
       <buildNumber>1</buildNumber>
     </snapshot>
-    <lastUpdated>20220119155322</lastUpdated>
+    <lastUpdated>20220120145735</lastUpdated>
     <snapshotVersions>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>1.0-20220119.155322-1</value>
-        <updated>20220119155322</updated>
+        <value>1.0-20220120.145735-1</value>
+        <updated>20220120145735</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>json</extension>
-        <value>1.0-20220119.155322-1</value>
-        <updated>20220119155322</updated>
+        <value>1.0-20220120.145735-1</value>
+        <updated>20220120145735</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>2.2.5.Final</classifier>
         <extension>json</extension>
-        <value>1.0-20220119.155322-1</value>
-        <updated>20220119155322</updated>
+        <value>1.0-20220120.145735-1</value>
+        <updated>20220120145735</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>2.7.0.CR1</classifier>
         <extension>json</extension>
-        <value>1.0-20220119.155322-1</value>
-        <updated>20220119155322</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <classifier>2.6.2.Final</classifier>
-        <extension>json</extension>
-        <value>1.0-20220119.155322-1</value>
-        <updated>20220119155322</updated>
+        <value>1.0-20220120.145735-1</value>
+        <updated>20220120145735</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>2.3.1.Final</classifier>
         <extension>json</extension>
-        <value>1.0-20220119.155322-1</value>
-        <updated>20220119155322</updated>
+        <value>1.0-20220120.145735-1</value>
+        <updated>20220120145735</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>2.4.2.Final</classifier>
         <extension>json</extension>
-        <value>1.0-20220119.155322-1</value>
-        <updated>20220119155322</updated>
+        <value>1.0-20220120.145735-1</value>
+        <updated>20220120145735</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>2.5.4.Final</classifier>
         <extension>json</extension>
-        <value>1.0-20220119.155322-1</value>
-        <updated>20220119155322</updated>
+        <value>1.0-20220120.145735-1</value>
+        <updated>20220120145735</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <classifier>2.6.3.Final</classifier>
+        <extension>json</extension>
+        <value>1.0-20220120.145735-1</value>
+        <updated>20220120145735</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
