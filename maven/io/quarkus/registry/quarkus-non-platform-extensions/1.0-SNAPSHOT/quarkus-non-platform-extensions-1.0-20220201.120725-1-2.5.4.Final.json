@@ -1,6 +1,6 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.3.1.Final:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.3.1.Final",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.5.4.Final:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.5.4.Final",
   "extensions" : [ {
     "name" : "Micrometer registry - Datadog",
     "description" : "Send metrics to Datadog using the Datadog API",
@@ -297,10 +297,10 @@
       "categories" : [ "messaging" ],
       "guide" : "https://quarkiverse.github.io/quarkiverse-docs/quarkus-artemis/dev/index.html",
       "config" : [ "quarkus.artemis." ],
-      "built-with-quarkus-core" : "2.6.0.Final",
+      "built-with-quarkus-core" : "2.7.0.Final",
       "extension-dependencies" : [ "io.quarkiverse.artemis:quarkus-artemis-core", "io.quarkus:quarkus-core", "io.quarkus:quarkus-arc", "io.quarkus:quarkus-jsonp", "io.quarkus:quarkus-netty" ]
     },
-    "artifact" : "io.quarkiverse.artemis:quarkus-artemis-jms::jar:1.0.3"
+    "artifact" : "io.quarkiverse.artemis:quarkus-artemis-jms::jar:1.0.4"
   }, {
     "name" : "Reactive HTTP and WebSocket Connector",
     "description" : "Connect to HTTP or WebSocket and expose HTTP or WebSocket endpoints for Reactive Messaging",
@@ -342,10 +342,10 @@
       "categories" : [ "messaging" ],
       "unlisted" : true,
       "config" : [ "quarkus.artemis." ],
-      "built-with-quarkus-core" : "2.6.0.Final",
+      "built-with-quarkus-core" : "2.7.0.Final",
       "extension-dependencies" : [ "io.quarkus:quarkus-core", "io.quarkus:quarkus-arc", "io.quarkus:quarkus-jsonp", "io.quarkus:quarkus-netty" ]
     },
-    "artifact" : "io.quarkiverse.artemis:quarkus-artemis-core::jar:1.0.3"
+    "artifact" : "io.quarkiverse.artemis:quarkus-artemis-core::jar:1.0.4"
   }, {
     "name" : "JGraphT",
     "description" : "JGraphT - a Java library of graph theory data structures and algorithms",
@@ -358,9 +358,16 @@
     },
     "artifact" : "io.quarkiverse.jgrapht:quarkus-jgrapht::jar:1.2.1"
   }, {
-    "name" : "Quarkus - Maven Resolver - Runtime",
-    "description" : "Parent POM for Quarkiverse projects that includes the default release and artifact publishing related\n    configuration",
-    "artifact" : "io.quarkiverse.mavenresolver:quarkus-maven-resolver::jar:0.0.2"
+    "name" : "Maven Resolver",
+    "description" : "An extension providing a Maven resolver implementation from the Quarkus core bootstrap project",
+    "metadata" : {
+      "keywords" : [ "maven" ],
+      "categories" : [ "miscellaneous" ],
+      "status" : "stable",
+      "built-with-quarkus-core" : "2.6.3.Final",
+      "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core" ]
+    },
+    "artifact" : "io.quarkiverse.mavenresolver:quarkus-maven-resolver::jar:0.0.3"
   }, {
     "name" : "Quarkus - Hibernate Types - Runtime",
     "description" : "Hibernate Types",
