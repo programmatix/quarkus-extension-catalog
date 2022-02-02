@@ -2,6 +2,13 @@
   "platforms" : [ {
     "platform-key" : "io.quarkus.platform",
     "streams" : [ {
+      "id" : "2.7",
+      "releases" : [ {
+        "version" : "2.7.0.Final",
+        "member-boms" : [ "io.quarkus.platform:quarkus-bom-quarkus-platform-descriptor:2.7.0.Final:json:2.7.0.Final", "io.quarkus.platform:quarkus-optaplanner-bom-quarkus-platform-descriptor:2.7.0.Final:json:2.7.0.Final", "io.quarkus.platform:quarkus-qpid-jms-bom-quarkus-platform-descriptor:2.7.0.Final:json:2.7.0.Final", "io.quarkus.platform:quarkus-cassandra-bom-quarkus-platform-descriptor:2.7.0.Final:json:2.7.0.Final", "io.quarkus.platform:quarkus-amazon-services-bom-quarkus-platform-descriptor:2.7.0.Final:json:2.7.0.Final", "io.quarkus.platform:quarkus-camel-bom-quarkus-platform-descriptor:2.7.0.Final:json:2.7.0.Final", "io.quarkus.platform:quarkus-hazelcast-client-quarkus-platform-descriptor:2.7.0.Final:json:2.7.0.Final", "io.quarkus.platform:quarkus-debezium-bom-quarkus-platform-descriptor:2.7.0.Final:json:2.7.0.Final", "io.quarkus.platform:quarkus-blaze-persistence-bom-quarkus-platform-descriptor:2.7.0.Final:json:2.7.0.Final", "io.quarkus.platform:quarkus-google-cloud-services-bom-quarkus-platform-descriptor:2.7.0.Final:json:2.7.0.Final" ],
+        "quarkus-core-version" : "2.7.0.Final"
+      } ]
+    }, {
       "id" : "2.6",
       "releases" : [ {
         "version" : "2.6.3.Final",
@@ -35,13 +42,6 @@
         "version" : "2.2.5.Final",
         "member-boms" : [ "io.quarkus.platform:quarkus-bom-quarkus-platform-descriptor:2.2.5.Final:json:2.2.5.Final", "io.quarkus.platform:quarkus-optaplanner-bom-quarkus-platform-descriptor:2.2.5.Final:json:2.2.5.Final", "io.quarkus.platform:quarkus-kogito-bom-quarkus-platform-descriptor:2.2.5.Final:json:2.2.5.Final", "io.quarkus.platform:quarkus-qpid-jms-bom-quarkus-platform-descriptor:2.2.5.Final:json:2.2.5.Final", "io.quarkus.platform:quarkus-cassandra-bom-quarkus-platform-descriptor:2.2.5.Final:json:2.2.5.Final", "io.quarkus.platform:quarkus-camel-bom-quarkus-platform-descriptor:2.2.5.Final:json:2.2.5.Final", "io.quarkus.platform:quarkus-hazelcast-client-quarkus-platform-descriptor:2.2.5.Final:json:2.2.5.Final", "io.quarkus.platform:quarkus-debezium-bom-quarkus-platform-descriptor:2.2.5.Final:json:2.2.5.Final", "io.quarkus.platform:quarkus-blaze-persistence-bom-quarkus-platform-descriptor:2.2.5.Final:json:2.2.5.Final", "io.quarkus.platform:quarkus-google-cloud-services-bom-quarkus-platform-descriptor:2.2.5.Final:json:2.2.5.Final" ],
         "quarkus-core-version" : "2.2.5.Final"
-      } ]
-    }, {
-      "id" : "2.7",
-      "releases" : [ {
-        "version" : "2.7.0.CR1",
-        "member-boms" : [ "io.quarkus.platform:quarkus-bom-quarkus-platform-descriptor:2.7.0.CR1:json:2.7.0.CR1", "io.quarkus.platform:quarkus-optaplanner-bom-quarkus-platform-descriptor:2.7.0.CR1:json:2.7.0.CR1", "io.quarkus.platform:quarkus-kogito-bom-quarkus-platform-descriptor:2.7.0.CR1:json:2.7.0.CR1", "io.quarkus.platform:quarkus-qpid-jms-bom-quarkus-platform-descriptor:2.7.0.CR1:json:2.7.0.CR1", "io.quarkus.platform:quarkus-cassandra-bom-quarkus-platform-descriptor:2.7.0.CR1:json:2.7.0.CR1", "io.quarkus.platform:quarkus-amazon-services-bom-quarkus-platform-descriptor:2.7.0.CR1:json:2.7.0.CR1", "io.quarkus.platform:quarkus-camel-bom-quarkus-platform-descriptor:2.7.0.CR1:json:2.7.0.CR1", "io.quarkus.platform:quarkus-hazelcast-client-quarkus-platform-descriptor:2.7.0.CR1:json:2.7.0.CR1", "io.quarkus.platform:quarkus-debezium-bom-quarkus-platform-descriptor:2.7.0.CR1:json:2.7.0.CR1", "io.quarkus.platform:quarkus-blaze-persistence-bom-quarkus-platform-descriptor:2.7.0.CR1:json:2.7.0.CR1", "io.quarkus.platform:quarkus-google-cloud-services-bom-quarkus-platform-descriptor:2.7.0.CR1:json:2.7.0.CR1" ],
-        "quarkus-core-version" : "2.7.0.CR1"
       } ]
     } ]
   } ]
