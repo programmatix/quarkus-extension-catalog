@@ -1,6 +1,6 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.3.1.Final:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.3.1.Final",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.6.3.Final:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.6.3.Final",
   "extensions" : [ {
     "name" : "Lucene",
     "description" : "Add full-text search capabilities to your application with Apache Lucene.",
@@ -282,10 +282,10 @@
       "categories" : [ "data" ],
       "guide" : "https://quarkiverse.github.io/quarkiverse-docs/quarkus-neo4j/dev/index.html",
       "config" : [ "quarkus.neo4j." ],
-      "built-with-quarkus-core" : "2.6.0.Final",
+      "built-with-quarkus-core" : "2.7.1.Final",
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core" ]
     },
-    "artifact" : "io.quarkiverse.neo4j:quarkus-neo4j::jar:1.0.2"
+    "artifact" : "io.quarkiverse.neo4j:quarkus-neo4j::jar:1.0.3"
   }, {
     "name" : "Quarkus - Hibernate Types - Runtime",
     "description" : "Hibernate Types",
@@ -555,7 +555,7 @@
       "built-with-quarkus-core" : "2.2.3.Final",
       "extension-dependencies" : [ "io.quarkus:quarkus-core", "io.quarkus:quarkus-arc" ]
     },
-    "artifact" : "io.quarkiverse.unleash:quarkus-unleash::jar:0.2.0"
+    "artifact" : "io.quarkiverse.unleash:quarkus-unleash::jar:0.3.0"
   }, {
     "name" : "Micrometer registry - StatsD",
     "description" : "Send metrics to a StatsD sidecar agent",
