@@ -118,10 +118,10 @@
       "keywords" : [ "logging", "logback" ],
       "categories" : [ "logging" ],
       "status" : "experimental",
-      "built-with-quarkus-core" : "2.6.1.Final",
+      "built-with-quarkus-core" : "2.7.3.Final",
       "extension-dependencies" : [ "io.quarkus:quarkus-core" ]
     },
-    "artifact" : "io.quarkiverse.logging.logback:quarkus-logging-logback::jar:0.10.0"
+    "artifact" : "io.quarkiverse.logging.logback:quarkus-logging-logback::jar:0.11.0"
   }, {
     "name" : "Artemis Core",
     "description" : "Use ActiveMQ Artemis as message broker",
