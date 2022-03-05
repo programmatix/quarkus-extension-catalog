@@ -1,6 +1,6 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.2.2.Final:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.2.2.Final",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.7.3.Final:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.7.3.Final",
   "extensions" : [ {
     "name" : "Lucene",
     "description" : "Add full-text search capabilities to your application with Apache Lucene.",
@@ -543,10 +543,10 @@
       "keywords" : [ "openapi", "openapi-generator", "rest", "rest-client" ],
       "categories" : [ "rest" ],
       "status" : "preview",
-      "built-with-quarkus-core" : "2.7.1.Final",
+      "built-with-quarkus-core" : "2.7.3.Final",
       "extension-dependencies" : [ "io.quarkus:quarkus-core", "io.quarkus:quarkus-rest-client-jackson", "io.quarkus:quarkus-rest-client", "io.quarkus:quarkus-resteasy-common", "io.quarkus:quarkus-apache-httpclient", "io.quarkus:quarkus-rest-client-config", "io.quarkus:quarkus-jackson", "io.quarkus:quarkus-qute", "io.quarkus:quarkus-arc" ]
     },
-    "artifact" : "io.quarkiverse.openapi.generator:quarkus-openapi-generator::jar:0.1.0"
+    "artifact" : "io.quarkiverse.openapi.generator:quarkus-openapi-generator::jar:0.2.0"
   }, {
     "name" : "Quarkus JJWT Jackson",
     "description" : "Create JWT tokens",
