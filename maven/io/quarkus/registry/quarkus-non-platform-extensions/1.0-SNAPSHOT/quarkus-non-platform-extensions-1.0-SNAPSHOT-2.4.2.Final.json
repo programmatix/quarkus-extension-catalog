@@ -631,7 +631,7 @@
       "categories" : [ "business-automation" ],
       "status" : "preview"
     },
-    "artifact" : "org.camunda.bpm.quarkus:camunda-bpm-quarkus-engine::jar:7.17.0-alpha4"
+    "artifact" : "org.camunda.bpm.quarkus:camunda-bpm-quarkus-engine::jar:7.17.0-alpha5"
   }, {
     "name" : "An powerful enhanced toolkit of MyBatis for simplify development",
     "description" : "An powerful enhanced toolkit of MyBatis for simplify development",
