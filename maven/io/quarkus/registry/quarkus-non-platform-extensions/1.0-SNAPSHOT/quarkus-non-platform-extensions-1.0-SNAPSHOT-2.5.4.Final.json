@@ -606,10 +606,10 @@
     "name" : "Logging Cloudwatch",
     "description" : "Parent POM for Quarkiverse projects that includes the default release and artifact publishing related\n    configuration",
     "metadata" : {
-      "built-with-quarkus-core" : "2.7.0.Final",
-      "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "io.quarkus:quarkus-apache-httpclient" ]
+      "built-with-quarkus-core" : "2.7.2.Final",
+      "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "io.quarkus:quarkus-apache-httpclient", "io.quarkiverse.amazonservices:quarkus-amazon-common", "io.quarkus:quarkus-netty" ]
     },
-    "artifact" : "io.quarkiverse.logging.cloudwatch:quarkus-logging-cloudwatch::jar:4.1.1"
+    "artifact" : "io.quarkiverse.logging.cloudwatch:quarkus-logging-cloudwatch::jar:4.2.0"
   }, {
     "name" : "Logging manager",
     "description" : "Provides you endpoints to visualize and manage the log level of your loggers",
