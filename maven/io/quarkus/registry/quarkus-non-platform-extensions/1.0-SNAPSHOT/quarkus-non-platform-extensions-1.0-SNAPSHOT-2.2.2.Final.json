@@ -94,11 +94,12 @@
     "metadata" : {
       "keywords" : [ "git" ],
       "categories" : [ "miscellaneous" ],
+      "guide" : "https://quarkiverse.github.io/quarkiverse-docs/quarkus-jgit/dev/index.html",
       "status" : "stable",
-      "built-with-quarkus-core" : "2.5.1.Final",
+      "built-with-quarkus-core" : "2.7.3.Final",
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "io.quarkiverse.jsch:quarkus-jsch" ]
     },
-    "artifact" : "io.quarkiverse.jgit:quarkus-jgit::jar:1.1.0"
+    "artifact" : "io.quarkiverse.jgit:quarkus-jgit::jar:1.2.0"
   }, {
     "name" : "Micrometer registry - JMX",
     "description" : "View metrics data using JMX",
