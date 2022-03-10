@@ -143,10 +143,10 @@
       "categories" : [ "cloud" ],
       "guide" : "https://quarkus.io/guides/amazon-lambda",
       "status" : "stable",
-      "built-with-quarkus-core" : "2.6.0.Final",
+      "built-with-quarkus-core" : "2.7.4.Final",
       "extension-dependencies" : [ "io.quarkus:quarkus-apache-httpclient", "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "io.quarkus:quarkus-jackson" ]
     },
-    "artifact" : "io.quarkiverse.amazonalexa:quarkus-amazon-alexa::jar:1.0.1"
+    "artifact" : "io.quarkiverse.amazonalexa:quarkus-amazon-alexa::jar:1.0.2"
   }, {
     "name" : "Micrometer registry - Datadog",
     "description" : "Send metrics to Datadog using the Datadog API",
