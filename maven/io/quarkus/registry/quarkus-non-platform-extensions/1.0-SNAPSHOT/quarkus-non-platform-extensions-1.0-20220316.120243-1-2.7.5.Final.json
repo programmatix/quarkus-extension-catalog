@@ -1,6 +1,6 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.6.3.Final:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.6.3.Final",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.7.5.Final:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.7.5.Final",
   "extensions" : [ {
     "name" : "Lucene",
     "description" : "Add full-text search capabilities to your application with Apache Lucene.",
@@ -58,10 +58,10 @@
       "categories" : [ "core" ],
       "guide" : "https://quarkiverse.github.io/quarkiverse-docs/quarkus-logging-sentry/dev/index.html",
       "config" : [ "quarkus.log.sentry." ],
-      "built-with-quarkus-core" : "2.6.1.Final",
+      "built-with-quarkus-core" : "2.7.4.Final",
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core" ]
     },
-    "artifact" : "io.quarkiverse.loggingsentry:quarkus-logging-sentry::jar:1.0.2"
+    "artifact" : "io.quarkiverse.loggingsentry:quarkus-logging-sentry::jar:1.1.0"
   }, {
     "name" : "Morphia",
     "description" : "Advanced MongoDB support via Morphia",
