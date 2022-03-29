@@ -1,6 +1,6 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.3.1.Final:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.3.1.Final",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.5.4.Final:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.5.4.Final",
   "extensions" : [ {
     "name" : "Lucene",
     "description" : "Add full-text search capabilities to your application with Apache Lucene.",
@@ -21,18 +21,18 @@
       "categories" : [ "messaging" ],
       "guide" : "https://quarkiverse.github.io/quarkiverse-docs/quarkus-artemis/dev/index.html",
       "config" : [ "quarkus.artemis." ],
-      "built-with-quarkus-core" : "2.7.0.Final",
+      "built-with-quarkus-core" : "2.7.5.Final",
       "extension-dependencies" : [ "io.quarkiverse.artemis:quarkus-artemis-core", "io.quarkus:quarkus-core", "io.quarkus:quarkus-arc", "io.quarkus:quarkus-jsonp", "io.quarkus:quarkus-netty" ]
     },
-    "artifact" : "io.quarkiverse.artemis:quarkus-artemis-jms::jar:1.0.4"
+    "artifact" : "io.quarkiverse.artemis:quarkus-artemis-jms::jar:1.0.5"
   }, {
     "name" : "Splunk logging extension - Runtime",
-    "description" : "Parent POM for Quarkiverse projects that includes the default release and artifact publishing related\n    configuration",
+    "description" : "Send logs to a Splunk HTTP Event Collector (HEC)",
     "metadata" : {
       "built-with-quarkus-core" : "2.2.3.Final",
       "extension-dependencies" : [ "io.quarkus:quarkus-core", "io.quarkus:quarkus-arc" ]
     },
-    "artifact" : "io.quarkiverse.logging.splunk:quarkus-logging-splunk::jar:2.1.0"
+    "artifact" : "io.quarkiverse.logging.splunk:quarkus-logging-splunk::jar:2.2.1"
   }, {
     "name" : "Quarkus - Rsocket",
     "description" : "RSocket Support for native image",
@@ -131,10 +131,10 @@
       "categories" : [ "messaging" ],
       "unlisted" : true,
       "config" : [ "quarkus.artemis." ],
-      "built-with-quarkus-core" : "2.7.0.Final",
+      "built-with-quarkus-core" : "2.7.5.Final",
       "extension-dependencies" : [ "io.quarkus:quarkus-core", "io.quarkus:quarkus-arc", "io.quarkus:quarkus-jsonp", "io.quarkus:quarkus-netty" ]
     },
-    "artifact" : "io.quarkiverse.artemis:quarkus-artemis-core::jar:1.0.4"
+    "artifact" : "io.quarkiverse.artemis:quarkus-artemis-core::jar:1.0.5"
   }, {
     "name" : "Amazon Alexa",
     "description" : "Write Amazon Alexa Skills with AWS Lambda or HTTPS endpoints",
