@@ -1,6 +1,6 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.4.2.Final:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.4.2.Final",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.7.5.Final:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.7.5.Final",
   "extensions" : [ {
     "name" : "GitHub API",
     "description" : "Connect to the GitHub API",
@@ -156,6 +156,14 @@
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "io.quarkus:quarkus-mongodb-client", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-netty", "io.quarkus:quarkus-mutiny-reactive-streams-operators" ]
     },
     "artifact" : "io.quarkiverse.morphia:quarkus-morphia::jar:0.1.0"
+  }, {
+    "name" : "Renarde",
+    "description" : "Parent POM for Quarkiverse projects that includes the default release and artifact publishing related\n    configuration",
+    "metadata" : {
+      "built-with-quarkus-core" : "2.8.0.Final",
+      "extension-dependencies" : [ "io.quarkus:quarkus-core", "io.quarkus:quarkus-narayana-jta", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-arc", "io.quarkus:quarkus-qute", "io.quarkus:quarkus-security", "io.quarkus:quarkus-resteasy-reactive", "io.quarkus:quarkus-resteasy-reactive-common", "io.quarkus:quarkus-vertx-http", "io.quarkus:quarkus-jsonp", "io.quarkus:quarkus-resteasy-reactive-qute", "io.quarkus:quarkus-reactive-routes", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-netty", "io.quarkus:quarkus-jackson", "io.quarkus:quarkus-smallrye-jwt", "io.quarkus:quarkus-smallrye-jwt-build", "io.quarkus:quarkus-hibernate-validator" ]
+    },
+    "artifact" : "io.quarkiverse.renarde:quarkus-renarde::jar:1.0.0"
   }, {
     "name" : "An powerful enhanced toolkit of MyBatis for simplify development",
     "description" : "An powerful enhanced toolkit of MyBatis for simplify development",
@@ -626,6 +634,17 @@
       "extension-dependencies" : [ "io.quarkus:quarkus-core", "io.quarkus:quarkus-arc" ]
     },
     "artifact" : "io.quarkiverse.logging.splunk:quarkus-logging-splunk::jar:2.2.1"
+  }, {
+    "name" : "Quarkus - Helm",
+    "description" : "Quarkus extension for Helm",
+    "metadata" : {
+      "keywords" : [ "helm", "kubernetes", "openshift" ],
+      "categories" : [ "cloud" ],
+      "status" : "preview",
+      "built-with-quarkus-core" : "2.8.0.Final",
+      "extension-dependencies" : [ "io.quarkus:quarkus-core", "io.quarkus:quarkus-arc" ]
+    },
+    "artifact" : "io.quarkiverse.helm:quarkus-helm::jar:0.0.1"
   }, {
     "name" : "Datadog Opentracing",
     "description" : "Support and activate the Datadog opentracing tracer",
