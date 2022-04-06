@@ -502,7 +502,7 @@
       "categories" : [ "business-automation" ],
       "status" : "preview"
     },
-    "artifact" : "org.camunda.bpm.quarkus:camunda-bpm-quarkus-engine::jar:7.17.0-alpha6"
+    "artifact" : "org.camunda.bpm.quarkus:camunda-bpm-quarkus-engine::jar:7.17.0"
   }, {
     "name" : "Quarkus CXF",
     "description" : "Consume and produce SOAP web services with Apache CXF",
