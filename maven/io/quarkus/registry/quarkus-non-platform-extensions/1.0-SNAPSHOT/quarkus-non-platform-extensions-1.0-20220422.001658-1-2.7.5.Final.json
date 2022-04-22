@@ -1,6 +1,6 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.2.5.Final:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.2.5.Final",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.7.5.Final:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.7.5.Final",
   "extensions" : [ {
     "name" : "Micrometer registry - SignalFX",
     "description" : "Send metrics to Splunk using SignalFX",
@@ -668,7 +668,7 @@
       "built-with-quarkus-core" : "2.8.1.Final",
       "extension-dependencies" : [ "io.quarkus:quarkus-core" ]
     },
-    "artifact" : "io.quarkiverse.githubapi:quarkus-github-api::jar:1.305.0"
+    "artifact" : "io.quarkiverse.githubapi:quarkus-github-api::jar:1.306.0"
   }, {
     "name" : "Quarkiverse - Tekton Client - Runtime",
     "description" : "Parent POM for Quarkiverse projects that includes the default release and artifact publishing related\n    configuration",
