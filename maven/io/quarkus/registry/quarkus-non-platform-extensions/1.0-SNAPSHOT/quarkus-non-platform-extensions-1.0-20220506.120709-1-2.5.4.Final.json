@@ -1,6 +1,6 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.9.0.CR1:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.9.0.CR1",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.5.4.Final:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.5.4.Final",
   "extensions" : [ {
     "name" : "JSch",
     "description" : "Secure your connections with SSH",
@@ -23,6 +23,17 @@
       "extension-dependencies" : [ "io.quarkus:quarkus-micrometer", "io.quarkus:quarkus-core", "io.quarkus:quarkus-arc", "io.quarkus:quarkus-vertx-http", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-netty", "io.quarkus:quarkus-jackson" ]
     },
     "artifact" : "io.quarkiverse.micrometer.registry:quarkus-micrometer-registry-jmx::jar:2.3.0"
+  }, {
+    "name" : "Arthas",
+    "description" : "Connect Arthas to a Quarkus application when it starts in dev mode",
+    "metadata" : {
+      "keywords" : [ "arthas", "diagnostics" ],
+      "categories" : [ "miscellaneous" ],
+      "status" : "preview",
+      "built-with-quarkus-core" : "2.9.0.Final",
+      "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core" ]
+    },
+    "artifact" : "io.quarkiverse.arthas:quarkus-arthas::jar:0.1"
   }, {
     "name" : "Kerberos",
     "description" : "Parent POM for Quarkiverse projects that includes the default release and artifact publishing related\n    configuration",
@@ -446,6 +457,14 @@
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "io.quarkiverse.jsch:quarkus-jsch" ]
     },
     "artifact" : "io.quarkiverse.jgit:quarkus-jgit::jar:1.2.0"
+  }, {
+    "name" : "Ngrok",
+    "description" : "Parent POM for Quarkiverse projects that includes the default release and artifact publishing related\n    configuration",
+    "metadata" : {
+      "built-with-quarkus-core" : "2.9.0.Final",
+      "extension-dependencies" : [ "io.quarkus:quarkus-vertx-http", "io.quarkus:quarkus-core", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-arc", "io.quarkus:quarkus-netty" ]
+    },
+    "artifact" : "io.quarkiverse.ngrok:quarkus-ngrok::jar:0.1"
   }, {
     "name" : "Quarkus JJWT Jackson",
     "description" : "Create JWT tokens",
