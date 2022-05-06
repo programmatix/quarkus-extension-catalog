@@ -1,6 +1,6 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.6.3.Final:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.6.3.Final",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.9.0.CR1:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.9.0.CR1",
   "extensions" : [ {
     "name" : "JSch",
     "description" : "Secure your connections with SSH",
@@ -647,7 +647,7 @@
       "built-with-quarkus-core" : "2.8.2.Final",
       "extension-dependencies" : [ "io.quarkus:quarkus-core", "io.quarkus:quarkus-rest-client-jackson", "io.quarkus:quarkus-rest-client", "io.quarkus:quarkus-resteasy-common", "io.quarkus:quarkus-apache-httpclient", "io.quarkus:quarkus-rest-client-config", "io.quarkus:quarkus-jackson", "io.quarkus:quarkus-qute", "io.quarkus:quarkus-arc" ]
     },
-    "artifact" : "io.quarkiverse.openapi.generator:quarkus-openapi-generator::jar:0.5.0"
+    "artifact" : "io.quarkiverse.openapi.generator:quarkus-openapi-generator::jar:0.6.0"
   }, {
     "name" : "Neo4j client",
     "description" : "Connect to Neo4j graph datastore",
