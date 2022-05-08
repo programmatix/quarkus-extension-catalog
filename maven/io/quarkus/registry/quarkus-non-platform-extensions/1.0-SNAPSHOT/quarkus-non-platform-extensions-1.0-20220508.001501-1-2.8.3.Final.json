@@ -1,6 +1,6 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.9.0.CR1:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.9.0.CR1",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.8.3.Final:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.8.3.Final",
   "extensions" : [ {
     "name" : "JSch",
     "description" : "Secure your connections with SSH",
@@ -349,10 +349,10 @@
       "categories" : [ "integration" ],
       "guide" : "https://quarkiverse.github.io/quarkiverse-docs/quarkus-cxf/dev/index.html",
       "status" : "stable",
-      "built-with-quarkus-core" : "2.8.0.Final",
+      "built-with-quarkus-core" : "2.9.0.Final",
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "io.quarkus:quarkus-jaxb", "io.quarkus:quarkus-jaxp", "io.quarkus:quarkus-jackson", "io.quarkus:quarkus-vertx-http", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-netty" ]
     },
-    "artifact" : "io.quarkiverse.cxf:quarkus-cxf::jar:1.0.0"
+    "artifact" : "io.quarkiverse.cxf:quarkus-cxf::jar:1.1.0"
   }, {
     "name" : "Artemis Core",
     "description" : "Use ActiveMQ Artemis as message broker",
