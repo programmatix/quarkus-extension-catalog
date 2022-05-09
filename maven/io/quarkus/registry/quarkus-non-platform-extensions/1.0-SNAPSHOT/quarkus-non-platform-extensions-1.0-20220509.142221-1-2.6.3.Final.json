@@ -1,6 +1,6 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.9.0.CR1:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.9.0.CR1",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.6.3.Final:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.6.3.Final",
   "extensions" : [ {
     "name" : "JSch",
     "description" : "Secure your connections with SSH",
@@ -450,17 +450,6 @@
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "io.quarkiverse.jsch:quarkus-jsch" ]
     },
     "artifact" : "io.quarkiverse.jgit:quarkus-jgit::jar:1.2.0"
-  }, {
-    "name" : "Ngrok",
-    "description" : "Launch and configure ngrok to connect to the Quarkus application when it starts in dev mode",
-    "metadata" : {
-      "keywords" : [ "ngrok", "public" ],
-      "categories" : [ "miscellaneous" ],
-      "status" : "preview",
-      "built-with-quarkus-core" : "2.9.0.Final",
-      "extension-dependencies" : [ "io.quarkus:quarkus-vertx-http", "io.quarkus:quarkus-core", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-arc", "io.quarkus:quarkus-netty" ]
-    },
-    "artifact" : "io.quarkiverse.ngrok:quarkus-ngrok::jar:0.1.2"
   }, {
     "name" : "Quarkus JJWT Jackson",
     "description" : "Create JWT tokens",
