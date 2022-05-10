@@ -153,15 +153,6 @@
     },
     "artifact" : "io.quarkiverse.rabbitmqclient:quarkus-rabbitmq-client::jar:0.5.0.Final"
   }, {
-    "name" : "Logging JSON Jackson",
-    "description" : "Logging in json with support for custom fields",
-    "metadata" : {
-      "keywords" : [ "logging", "json", "formatter" ],
-      "categories" : [ "core" ],
-      "status" : "preview"
-    },
-    "artifact" : "io.quarkiverse.loggingjson:quarkiverse-logging-json::jar:0.2.3"
-  }, {
     "name" : "Logging Cloudwatch",
     "description" : "Parent POM for Quarkiverse projects that includes the default release and artifact publishing related\n    configuration",
     "metadata" : {

@@ -1,6 +1,6 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.3.1.Final:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.3.1.Final",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.5.4.Final:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.5.4.Final",
   "extensions" : [ {
     "name" : "JSch",
     "description" : "Secure your connections with SSH",
@@ -152,15 +152,6 @@
       "extension-dependencies" : [ "io.quarkus:quarkus-core", "io.quarkus:quarkus-arc", "io.quarkus:quarkus-smallrye-context-propagation" ]
     },
     "artifact" : "io.quarkiverse.rabbitmqclient:quarkus-rabbitmq-client::jar:0.5.0.Final"
-  }, {
-    "name" : "Logging JSON Jackson",
-    "description" : "Logging in json with support for custom fields",
-    "metadata" : {
-      "keywords" : [ "logging", "json", "formatter" ],
-      "categories" : [ "core" ],
-      "status" : "preview"
-    },
-    "artifact" : "io.quarkiverse.loggingjson:quarkiverse-logging-json::jar:0.2.3"
   }, {
     "name" : "Logging Cloudwatch",
     "description" : "Parent POM for Quarkiverse projects that includes the default release and artifact publishing related\n    configuration",
