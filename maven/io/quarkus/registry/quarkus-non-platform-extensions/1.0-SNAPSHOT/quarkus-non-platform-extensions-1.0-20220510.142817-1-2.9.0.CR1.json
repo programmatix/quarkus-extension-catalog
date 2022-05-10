@@ -1,6 +1,6 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.6.3.Final:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.6.3.Final",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.9.0.CR1:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.9.0.CR1",
   "extensions" : [ {
     "name" : "JSch",
     "description" : "Secure your connections with SSH",
@@ -56,6 +56,18 @@
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core" ]
     },
     "artifact" : "io.quarkiverse.opencv:quarkus-opencv::jar:1.1.0"
+  }, {
+    "name" : "Quinoa",
+    "description" : "Quinoa is a Quarkus extension which eases the development, the build and serving of single page apps (built with NodeJS: React, Angular, …) alongside Quarkus . It is possible to use it with a Quarkus backend in a single project.",
+    "metadata" : {
+      "keywords" : [ "quinoa" ],
+      "guide" : "...",
+      "categories" : [ "web" ],
+      "status" : "experimental",
+      "built-with-quarkus-core" : "2.8.2.Final",
+      "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "io.quarkus:quarkus-vertx-http", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-netty" ]
+    },
+    "artifact" : "io.quarkiverse.quinoa:quarkus-quinoa::jar:1.0.0-CR1"
   }, {
     "name" : "Amazon Alexa",
     "description" : "Write Amazon Alexa Skills with AWS Lambda or HTTPS endpoints",
