@@ -282,10 +282,6 @@
     },
     "artifact" : "io.quarkiverse.zeebe:quarkus-zeebe::jar:0.4.0"
   }, {
-    "name" : "Apicurio Registry client",
-    "description" : "Allow applications to use Apicurio Registry client",
-    "artifact" : "io.quarkiverse.apicurio:quarkiverse-apicurio-registry-client::jar:0.0.2"
-  }, {
     "name" : "MyBatis SQL Mapper",
     "description" : "MyBatis SQL mapper framework for Java",
     "metadata" : {
