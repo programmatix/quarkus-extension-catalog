@@ -1,6 +1,6 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.7.5.Final:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.7.5.Final",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.6.3.Final:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.6.3.Final",
   "extensions" : [ {
     "name" : "Quarkus CXF",
     "description" : "Consume and produce SOAP web services with Apache CXF",
@@ -207,10 +207,10 @@
       "categories" : [ "messaging" ],
       "unlisted" : true,
       "config" : [ "quarkus.artemis." ],
-      "built-with-quarkus-core" : "2.7.5.Final",
+      "built-with-quarkus-core" : "2.9.0.Final",
       "extension-dependencies" : [ "io.quarkus:quarkus-core", "io.quarkus:quarkus-arc", "io.quarkus:quarkus-jsonp", "io.quarkus:quarkus-netty" ]
     },
-    "artifact" : "io.quarkiverse.artemis:quarkus-artemis-core::jar:1.0.5"
+    "artifact" : "io.quarkiverse.artemis:quarkus-artemis-core::jar:1.0.6"
   }, {
     "name" : "Quarkus - Unleash - Runtime",
     "description" : "Unleash is a feature toggle system",
@@ -449,10 +449,10 @@
       "categories" : [ "messaging" ],
       "guide" : "https://quarkiverse.github.io/quarkiverse-docs/quarkus-artemis/dev/index.html",
       "config" : [ "quarkus.artemis." ],
-      "built-with-quarkus-core" : "2.7.5.Final",
+      "built-with-quarkus-core" : "2.9.0.Final",
       "extension-dependencies" : [ "io.quarkiverse.artemis:quarkus-artemis-core", "io.quarkus:quarkus-core", "io.quarkus:quarkus-arc", "io.quarkus:quarkus-jsonp", "io.quarkus:quarkus-netty" ]
     },
-    "artifact" : "io.quarkiverse.artemis:quarkus-artemis-jms::jar:1.0.5"
+    "artifact" : "io.quarkiverse.artemis:quarkus-artemis-jms::jar:1.0.6"
   }, {
     "name" : "Neo4j client",
     "description" : "Connect to Neo4j graph datastore",
