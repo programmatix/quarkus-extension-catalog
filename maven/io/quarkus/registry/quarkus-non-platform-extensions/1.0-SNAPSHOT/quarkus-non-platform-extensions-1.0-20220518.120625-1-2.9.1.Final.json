@@ -1,6 +1,6 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.8.3.Final:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.8.3.Final",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.9.1.Final:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.9.1.Final",
   "extensions" : [ {
     "name" : "Quarkus CXF",
     "description" : "Consume and produce SOAP web services with Apache CXF",
@@ -86,7 +86,7 @@
     "artifact" : "io.quarkiverse.freemarker:quarkus-freemarker::jar:0.3.0"
   }, {
     "name" : "Quinoa",
-    "description" : "Quinoa is a Quarkus extension which eases the development, the build and serving of single page apps or web components (built with NodeJS: React, Angular, Vue, Lit, …) alongside Quarkus. It is possible to use it with a Quarkus backend in a single project.\nYou will be able to do live coding of the backend and frontend together nearly out of the box. In Quarkus dev mode, Quinoa will start the node live coding server provided by the target framework and forward relevant requests to it.\n",
+    "description" : "Quinoa is a Quarkus extension which eases the development, the build and serving single page apps or web components (built with NodeJS: React, Angular, Vue, Lit, …) alongside other Quarkus services (REST, GraphQL, Security, Events, ...).\n\nLive code the backend and frontend together with close to no configuration. When enabled in development mode, Quinoa will start the UI live coding server provided by the target framework and forward relevant requests to it. In production mode, Quinoa will run the build and process the generated files to serve them at runtime.\n",
     "metadata" : {
       "keywords" : [ "quinoa", "ui", "react", "angular", "vue", "lit", "spa", "node", "nodejs", "web", "frontend" ],
       "guide" : "https://quarkiverse.github.io/quarkiverse-docs/quarkus-quinoa/dev/index.html",
@@ -95,12 +95,12 @@
       "codestart" : {
         "name" : "quinoa",
         "languages" : [ "java", "kotlin", "scala" ],
-        "artifact" : "io.quarkiverse.quinoa:quarkus-quinoa:codestarts:jar:1.0.1"
+        "artifact" : "io.quarkiverse.quinoa:quarkus-quinoa:codestarts:jar:1.0.2"
       },
-      "built-with-quarkus-core" : "2.9.0.Final",
+      "built-with-quarkus-core" : "2.9.1.Final",
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "io.quarkus:quarkus-vertx-http", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-netty" ]
     },
-    "artifact" : "io.quarkiverse.quinoa:quarkus-quinoa::jar:1.0.1"
+    "artifact" : "io.quarkiverse.quinoa:quarkus-quinoa::jar:1.0.2"
   }, {
     "name" : "Quarkus - Hibernate Types - Runtime",
     "description" : "Hibernate Types",
