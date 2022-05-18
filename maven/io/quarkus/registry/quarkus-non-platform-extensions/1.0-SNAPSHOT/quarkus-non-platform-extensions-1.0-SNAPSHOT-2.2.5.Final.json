@@ -461,10 +461,10 @@
       "categories" : [ "data" ],
       "guide" : "https://quarkiverse.github.io/quarkiverse-docs/quarkus-neo4j/dev/index.html",
       "config" : [ "quarkus.neo4j." ],
-      "built-with-quarkus-core" : "2.8.3.Final",
+      "built-with-quarkus-core" : "2.9.1.Final",
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core" ]
     },
-    "artifact" : "io.quarkiverse.neo4j:quarkus-neo4j::jar:1.1.1"
+    "artifact" : "io.quarkiverse.neo4j:quarkus-neo4j::jar:1.2.0"
   }, {
     "name" : "Splunk logging extension - Runtime",
     "description" : "Send logs to a Splunk HTTP Event Collector (HEC)",
