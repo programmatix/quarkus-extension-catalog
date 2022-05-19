@@ -578,10 +578,10 @@
       "keywords" : [ "prettytime" ],
       "categories" : [ "miscellaneous" ],
       "status" : "stable",
-      "built-with-quarkus-core" : "2.6.0.Final",
+      "built-with-quarkus-core" : "2.9.1.Final",
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core" ]
     },
-    "artifact" : "io.quarkiverse.prettytime:quarkus-prettytime::jar:0.2.1"
+    "artifact" : "io.quarkiverse.prettytime:quarkus-prettytime::jar:0.2.2"
   }, {
     "name" : "Lucene",
     "description" : "Add full-text search capabilities to your application with Apache Lucene.",
