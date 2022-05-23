@@ -1,6 +1,6 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.2.5.Final:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.2.5.Final",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.4.2.Final:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.4.2.Final",
   "extensions" : [ {
     "name" : "Doma - Database access framework",
     "description" : "Simplify your database accesses with compile-time code generation",
@@ -43,13 +43,13 @@
       "keywords" : [ "datadog-opentracing", "monitoring", "distributed-tracing" ],
       "categories" : [ "observability" ],
       "status" : "experimental",
-      "built-with-quarkus-core" : "2.7.4.Final",
+      "built-with-quarkus-core" : "2.9.1.Final",
       "capabilities" : {
         "provides" : [ "io.quarkus.opentracing" ]
       },
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core" ]
     },
-    "artifact" : "io.quarkiverse.opentracing.datadog:quarkus-datadog-opentracing::jar:1.1.5"
+    "artifact" : "io.quarkiverse.opentracing.datadog:quarkus-datadog-opentracing::jar:1.1.6"
   }, {
     "name" : "Quinoa",
     "description" : "Quinoa is a Quarkus extension which eases the development, the build and serving single page apps or web components (built with NodeJS: React, Angular, Vue, Lit, …) alongside other Quarkus services (REST, GraphQL, Security, Events, ...).\n\nLive code the backend and frontend together with close to no configuration. When enabled in development mode, Quinoa will start the UI live coding server provided by the target framework and forward relevant requests to it. In production mode, Quinoa will run the build and process the generated files to serve them at runtime.\n",
