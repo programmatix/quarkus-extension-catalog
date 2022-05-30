@@ -4,20 +4,20 @@
   <artifactId>quarkus-non-platform-extensions</artifactId>
   <versioning>
     <snapshot>
-      <timestamp>20220528.134935</timestamp>
+      <timestamp>20220530.120628</timestamp>
       <buildNumber>1</buildNumber>
     </snapshot>
-    <lastUpdated>20220528134935</lastUpdated>
+    <lastUpdated>20220530120628</lastUpdated>
     <snapshotVersions>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>1.0-20220528.134935-1</value>
-        <updated>20220528134935</updated>
+        <value>1.0-20220530.120628-1</value>
+        <updated>20220530120628</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>json</extension>
-        <value>1.0-20220528.134935-1</value>
-        <updated>20220528134935</updated>
+        <value>1.0-20220530.120628-1</value>
+        <updated>20220530120628</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
