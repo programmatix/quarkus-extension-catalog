@@ -61,12 +61,12 @@
       "codestart" : {
         "name" : "quinoa",
         "languages" : [ "java", "kotlin", "scala" ],
-        "artifact" : "io.quarkiverse.quinoa:quarkus-quinoa:codestarts:jar:1.0.3"
+        "artifact" : "io.quarkiverse.quinoa:quarkus-quinoa:codestarts:jar:1.0.4"
       },
-      "built-with-quarkus-core" : "2.9.1.Final",
+      "built-with-quarkus-core" : "2.9.2.Final",
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "io.quarkus:quarkus-vertx-http", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-netty" ]
     },
-    "artifact" : "io.quarkiverse.quinoa:quarkus-quinoa::jar:1.0.3"
+    "artifact" : "io.quarkiverse.quinoa:quarkus-quinoa::jar:1.0.4"
   }, {
     "name" : "Amazon Alexa",
     "description" : "Write Amazon Alexa Skills with AWS Lambda or HTTPS endpoints",
