@@ -153,10 +153,10 @@
     "name" : "Quarkus - Operator SDK - Bundle Generator",
     "description" : "Bundle Generation for Java Operator SDK operators",
     "metadata" : {
-      "built-with-quarkus-core" : "2.9.0.Final",
+      "built-with-quarkus-core" : "2.9.2.Final",
       "extension-dependencies" : [ "io.quarkiverse.operatorsdk:quarkus-operator-sdk", "io.quarkus:quarkus-arc", "io.quarkus:quarkus-openshift-client", "io.quarkus:quarkus-kubernetes-client", "io.quarkus:quarkus-jackson", "io.quarkus:quarkus-container-image-jib", "io.quarkus:quarkus-smallrye-health", "io.quarkus:quarkus-vertx-http", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-netty", "io.quarkus:quarkus-jsonp", "io.quarkus:quarkus-core", "io.quarkus:quarkus-kubernetes", "io.quarkus:quarkus-kubernetes-client-internal", "io.quarkus:quarkus-container-image" ]
     },
-    "artifact" : "io.quarkiverse.operatorsdk:quarkus-operator-sdk-bundle-generator::jar:4.0.0.Beta2"
+    "artifact" : "io.quarkiverse.operatorsdk:quarkus-operator-sdk-bundle-generator::jar:4.0.0.RC"
   }, {
     "name" : "Micrometer registry - StatsD",
     "description" : "Send metrics to a StatsD sidecar agent",
@@ -739,9 +739,9 @@
     "metadata" : {
       "keywords" : [ "operator", "kubernetes", "openshift" ],
       "categories" : [ "cloud" ],
-      "built-with-quarkus-core" : "2.9.0.Final",
+      "built-with-quarkus-core" : "2.9.2.Final",
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "io.quarkus:quarkus-openshift-client", "io.quarkus:quarkus-kubernetes-client", "io.quarkus:quarkus-jackson", "io.quarkus:quarkus-kubernetes", "io.quarkus:quarkus-kubernetes-client-internal", "io.quarkus:quarkus-container-image", "io.quarkus:quarkus-container-image-jib", "io.quarkus:quarkus-smallrye-health", "io.quarkus:quarkus-vertx-http", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-netty", "io.quarkus:quarkus-jsonp" ]
     },
-    "artifact" : "io.quarkiverse.operatorsdk:quarkus-operator-sdk::jar:4.0.0.Beta2"
+    "artifact" : "io.quarkiverse.operatorsdk:quarkus-operator-sdk::jar:4.0.0.RC"
   } ]
 }
