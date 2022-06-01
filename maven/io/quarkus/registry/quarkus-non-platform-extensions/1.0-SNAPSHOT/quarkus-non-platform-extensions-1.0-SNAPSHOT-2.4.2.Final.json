@@ -61,12 +61,12 @@
       "codestart" : {
         "name" : "quinoa",
         "languages" : [ "java", "kotlin", "scala" ],
-        "artifact" : "io.quarkiverse.quinoa:quarkus-quinoa:codestarts:jar:1.0.4"
+        "artifact" : "io.quarkiverse.quinoa:quarkus-quinoa:codestarts:jar:1.0.5"
       },
       "built-with-quarkus-core" : "2.9.2.Final",
       "extension-dependencies" : [ "io.quarkus:quarkus-arc", "io.quarkus:quarkus-core", "io.quarkus:quarkus-vertx-http", "io.quarkus:quarkus-mutiny", "io.quarkus:quarkus-smallrye-context-propagation", "io.quarkus:quarkus-vertx", "io.quarkus:quarkus-netty" ]
     },
-    "artifact" : "io.quarkiverse.quinoa:quarkus-quinoa::jar:1.0.4"
+    "artifact" : "io.quarkiverse.quinoa:quarkus-quinoa::jar:1.0.5"
   }, {
     "name" : "Amazon Alexa",
     "description" : "Write Amazon Alexa Skills with AWS Lambda or HTTPS endpoints",
@@ -526,10 +526,10 @@
       "keywords" : [ "openapi", "openapi-generator", "rest", "rest-client" ],
       "categories" : [ "rest" ],
       "status" : "preview",
-      "built-with-quarkus-core" : "2.8.2.Final",
+      "built-with-quarkus-core" : "2.9.2.Final",
       "extension-dependencies" : [ "io.quarkus:quarkus-core", "io.quarkus:quarkus-rest-client-jackson", "io.quarkus:quarkus-rest-client", "io.quarkus:quarkus-resteasy-common", "io.quarkus:quarkus-apache-httpclient", "io.quarkus:quarkus-rest-client-config", "io.quarkus:quarkus-jackson", "io.quarkus:quarkus-qute", "io.quarkus:quarkus-arc" ]
     },
-    "artifact" : "io.quarkiverse.openapi.generator:quarkus-openapi-generator::jar:0.6.1"
+    "artifact" : "io.quarkiverse.openapi.generator:quarkus-openapi-generator::jar:0.7.0"
   }, {
     "name" : "Splunk logging extension - Runtime",
     "description" : "Send logs to a Splunk HTTP Event Collector (HEC)",
