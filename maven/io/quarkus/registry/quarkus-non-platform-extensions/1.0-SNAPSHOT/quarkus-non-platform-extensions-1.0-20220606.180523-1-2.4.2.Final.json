@@ -1,6 +1,6 @@
 {
-  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.7.6.Final:json:1.0-SNAPSHOT",
-  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.7.6.Final",
+  "id" : "io.quarkus.registry:quarkus-non-platform-extensions:2.4.2.Final:json:1.0-SNAPSHOT",
+  "bom" : "io.quarkus.platform:quarkus-bom::pom:2.4.2.Final",
   "extensions" : [ {
     "name" : "Quarkus CXF",
     "description" : "Consume and produce SOAP web services with Apache CXF",
@@ -496,7 +496,7 @@
       "status" : "experimental",
       "built-with-quarkus-core" : "1.13.0.Final"
     },
-    "artifact" : "org.apache.myfaces.core.extensions.quarkus:myfaces-quarkus::jar:2.3-next-M6"
+    "artifact" : "org.apache.myfaces.core.extensions.quarkus:myfaces-quarkus::jar:2.3-next-M7"
   }, {
     "name" : "PrettyTime",
     "description" : "PrettyTime is an OpenSource time formatting library.",
